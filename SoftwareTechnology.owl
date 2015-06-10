@@ -1,0 +1,1295 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY software-products-ontology-6 "http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#"
+     xml:base="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:software-products-ontology-6="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#IsManufacturedBy -->
+
+    <owl:AnnotationProperty rdf:about="&software-products-ontology-6;IsManufacturedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#hasProducts -->
+
+    <owl:AnnotationProperty rdf:about="&software-products-ontology-6;hasProducts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#softwareLanguage -->
+
+    <owl:AnnotationProperty rdf:about="&software-products-ontology-6;softwareLanguage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#softwareLicense -->
+
+    <owl:AnnotationProperty rdf:about="&software-products-ontology-6;softwareLicense"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#synonym -->
+
+    <owl:AnnotationProperty rdf:about="&software-products-ontology-6;synonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Business_Intelligence -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Business_Intelligence">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Software_Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Content_Management_Systems -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Content_Management_Systems">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Software_Product"/>
+        <synonym>CMS</synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Customer_Relationship_Management -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Customer_Relationship_Management">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Software_Product"/>
+        <synonym>CRM</synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Data_Description_Language -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Data_Description_Language">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Software_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Databases -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Databases">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Software_Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Digital_Asset_Management -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Digital_Asset_Management">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Content_Management_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Distributed_Computing_Frameworks -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Distributed_Computing_Frameworks">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Software_Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Document-Oriented -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Document-Oriented">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;NoSQL_Databases"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Document_Management_Systems -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Document_Management_Systems">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Content_Management_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Graph_DB -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Graph_DB">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;NoSQL_Databases"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Java_-_JCR -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Java_-_JCR">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Document_Management_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Javascript_Frameworks -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Javascript_Frameworks">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Programming_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Key-Value -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Key-Value">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;NoSQL_Databases"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Network_Protocol -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Network_Protocol">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Software_Protocol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#NoSQL_Databases -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;NoSQL_Databases">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Databases"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Object_Database -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Object_Database">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Databases"/>
+        <synonym>OODBMS</synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Product_Content_Management -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Product_Content_Management">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Content_Management_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Programming_Language -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Programming_Language">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Software_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#RDF_Database -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;RDF_Database">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Graph_DB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Relational_Databases -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Relational_Databases">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Databases"/>
+        <synonym>RDBMS</synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Search_Engines -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Search_Engines">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Software_Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Software_Company -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Software_Company">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Software_Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Software_Language -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Software_Language">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Software_Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Software_License -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Software_License">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Software_Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Software_Product -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Software_Product">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Software_Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Software_Protocol -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Software_Protocol">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Software_Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Software_Technology -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Software_Technology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Web_Content_Management_Systems -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Web_Content_Management_Systems">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Content_Management_Systems"/>
+        <synonym>WCMS</synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Web_Services_Protocol -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Web_Services_Protocol">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Network_Protocol"/>
+        <rdfs:seeAlso rdf:resource="&software-products-ontology-6;HTTP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#XML-based -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;XML-based">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Data_Description_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Aerospike -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Aerospike">
+        <rdf:type rdf:resource="&software-products-ontology-6;Key-Value"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Alfresco -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Alfresco">
+        <rdf:type rdf:resource="&software-products-ontology-6;Java_-_JCR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#AllegroGraph -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;AllegroGraph">
+        <rdf:type rdf:resource="&software-products-ontology-6;RDF_Database"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;Franz_Inc."/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Angular_JS -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Angular_JS">
+        <rdf:type rdf:resource="&software-products-ontology-6;Javascript_Frameworks"/>
+        <synonym>AngularJS</synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Apache_2 -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Apache_2">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_License"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Apache_Flume -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Apache_Flume">
+        <rdf:type rdf:resource="&software-products-ontology-6;Distributed_Computing_Frameworks"/>
+        <softwareLicense rdf:resource="&software-products-ontology-6;Apache_2"/>
+        <softwareLanguage rdf:resource="&software-products-ontology-6;Java"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Apache_Hadoop -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Apache_Hadoop">
+        <rdf:type rdf:resource="&software-products-ontology-6;Distributed_Computing_Frameworks"/>
+        <softwareLicense rdf:resource="&software-products-ontology-6;Apache_2"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;Apache_Software_Foundation"/>
+        <softwareLanguage rdf:resource="&software-products-ontology-6;Java"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Apache_Lucene -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Apache_Lucene">
+        <rdf:type rdf:resource="&software-products-ontology-6;Search_Engines"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Apache_Software_Foundation -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Apache_Software_Foundation">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+        <hasProducts rdf:resource="&software-products-ontology-6;Apache_Flume"/>
+        <hasProducts rdf:resource="&software-products-ontology-6;Apache_Hadoop"/>
+        <hasProducts rdf:resource="&software-products-ontology-6;Apache_Solr"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Apache_Solr -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Apache_Solr">
+        <rdf:type rdf:resource="&software-products-ontology-6;Search_Engines"/>
+        <synonym>Solr</synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#ArrangoDB -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;ArrangoDB">
+        <rdf:type rdf:resource="&software-products-ontology-6;Document-Oriented"/>
+        <rdf:type rdf:resource="&software-products-ontology-6;Graph_DB"/>
+        <rdf:type rdf:resource="&software-products-ontology-6;Key-Value"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Basho_Technologies -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Basho_Technologies">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Blazegraph -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Blazegraph">
+        <rdf:type rdf:resource="&software-products-ontology-6;RDF_Database"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Business_Objects -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Business_Objects">
+        <rdf:type rdf:resource="&software-products-ontology-6;Business_Intelligence"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;SAP"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#C -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;C">
+        <rdf:type rdf:resource="&software-products-ontology-6;Programming_Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#C-Sharp -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;C-Sharp">
+        <rdf:type rdf:resource="&software-products-ontology-6;Programming_Language"/>
+        <synonym>C#</synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Caché -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Caché">
+        <rdf:type rdf:resource="&software-products-ontology-6;Object_Database"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;InterSystems_Corporation"/>
+        <softwareLicense rdf:resource="&software-products-ontology-6;Proprietary"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Cassandra -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Cassandra">
+        <rdf:type rdf:resource="&software-products-ontology-6;Key-Value"/>
+        <synonym>Apache Cassandra</synonym>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;Apache_Software_Foundation"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;Datastax"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Clojure -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Clojure">
+        <rdf:type rdf:resource="&software-products-ontology-6;Programming_Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Cloudant -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Cloudant">
+        <rdf:type rdf:resource="&software-products-ontology-6;Document-Oriented"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Cloudera -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Cloudera">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Cloudera_Enterprise -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Cloudera_Enterprise">
+        <rdf:type rdf:resource="&software-products-ontology-6;Distributed_Computing_Frameworks"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;Cloudera"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Cognos -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Cognos">
+        <rdf:type rdf:resource="&software-products-ontology-6;Business_Intelligence"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;IBM"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Couchbase -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Couchbase">
+        <rdf:type rdf:resource="&software-products-ontology-6;Document-Oriented"/>
+        <rdf:type rdf:resource="&software-products-ontology-6;Key-Value"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Coveo -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Coveo">
+        <rdf:type rdf:resource="&software-products-ontology-6;Search_Engines"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;Coveo_Solutions_Inc"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Coveo_Solutions_Inc -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Coveo_Solutions_Inc">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+        <hasProducts rdf:resource="&software-products-ontology-6;Coveo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#DB2 -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;DB2">
+        <rdf:type rdf:resource="&software-products-ontology-6;Relational_Databases"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;IBM"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Datastax -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Datastax">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+        <hasProducts rdf:resource="&software-products-ontology-6;Cassandra"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Dojo -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Dojo">
+        <rdf:type rdf:resource="&software-products-ontology-6;Javascript_Frameworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#DotNetNuke -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;DotNetNuke">
+        <rdf:type rdf:resource="&software-products-ontology-6;Web_Content_Management_Systems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Drupal -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Drupal">
+        <rdf:type rdf:resource="&software-products-ontology-6;Web_Content_Management_Systems"/>
+        <softwareLicense rdf:resource="&software-products-ontology-6;Gnu_Public_License"/>
+        <softwareLanguage rdf:resource="&software-products-ontology-6;PHP"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#EXT_JS -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;EXT_JS">
+        <rdf:type rdf:resource="&software-products-ontology-6;Javascript_Frameworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Elasticsearch -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Elasticsearch">
+        <rdf:type rdf:resource="&software-products-ontology-6;Search_Engines"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Ember.js -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Ember.js">
+        <rdf:type rdf:resource="&software-products-ontology-6;Javascript_Frameworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Endeca -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Endeca">
+        <rdf:type rdf:resource="&software-products-ontology-6;Search_Engines"/>
+        <synonym>Oracle Endeca</synonym>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;Oracle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Erlang -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Erlang">
+        <rdf:type rdf:resource="&software-products-ontology-6;Programming_Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#FTP -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;FTP">
+        <rdf:type rdf:resource="&software-products-ontology-6;Network_Protocol"/>
+        <synonym>File Transfer Protocol</synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Franz_Inc. -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Franz_Inc.">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Free_BSD -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Free_BSD">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_License"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#GNU_Affero_General_Public_License -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;GNU_Affero_General_Public_License">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_License"/>
+        <synonym>AGPL V3</synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Gnu_Public_License -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Gnu_Public_License">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_License"/>
+        <synonym>GPL</synonym>
+        <softwareLicense>GNU General Public License</softwareLicense>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#HTML -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;HTML">
+        <rdf:type rdf:resource="&software-products-ontology-6;Data_Description_Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#HTTP -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;HTTP">
+        <rdf:type rdf:resource="&software-products-ontology-6;Network_Protocol"/>
+        <synonym>Hypertext Transfer Protocol</synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Haskell -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Haskell">
+        <rdf:type rdf:resource="&software-products-ontology-6;Programming_Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Hewlett-Packard -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Hewlett-Packard">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+        <synonym>HP</synonym>
+        <hasProducts rdf:resource="&software-products-ontology-6;IDOL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Hippo_CMS -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Hippo_CMS">
+        <rdf:type rdf:resource="&software-products-ontology-6;Java_-_JCR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Hortonworks -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Hortonworks">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+        <hasProducts rdf:resource="&software-products-ontology-6;Apache_Hadoop"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Hybris -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Hybris">
+        <rdf:type rdf:resource="&software-products-ontology-6;Product_Content_Management"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#HyperGraphDB -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;HyperGraphDB">
+        <rdf:type rdf:resource="&software-products-ontology-6;Graph_DB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Hyperonix_CMS -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Hyperonix_CMS">
+        <rdf:type rdf:resource="&software-products-ontology-6;Web_Content_Management_Systems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#IBM -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;IBM">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+        <hasProducts rdf:resource="&software-products-ontology-6;Cognos"/>
+        <hasProducts rdf:resource="&software-products-ontology-6;DB2"/>
+        <hasProducts rdf:resource="&software-products-ontology-6;Vivisimo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#IDOL -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;IDOL">
+        <rdf:type rdf:resource="&software-products-ontology-6;Search_Engines"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#InfiniteGraph -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;InfiniteGraph">
+        <rdf:type rdf:resource="&software-products-ontology-6;Graph_DB"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;Objectivity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#InfoGrid -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;InfoGrid">
+        <rdf:type rdf:resource="&software-products-ontology-6;Graph_DB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#InterSystems_Corporation -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;InterSystems_Corporation">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#JQuery -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;JQuery">
+        <rdf:type rdf:resource="&software-products-ontology-6;Javascript_Frameworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#JSON -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;JSON">
+        <rdf:type rdf:resource="&software-products-ontology-6;Data_Description_Language"/>
+        <synonym>JavaScript Object Notation</synonym>
+        <rdfs:seeAlso rdf:resource="&software-products-ontology-6;JavaScript"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Java -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Java">
+        <rdf:type rdf:resource="&software-products-ontology-6;Programming_Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#JavaScript -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;JavaScript">
+        <rdf:type rdf:resource="&software-products-ontology-6;Programming_Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Joomla -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Joomla">
+        <rdf:type rdf:resource="&software-products-ontology-6;Web_Content_Management_Systems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Liferay -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Liferay">
+        <rdf:type rdf:resource="&software-products-ontology-6;Web_Content_Management_Systems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Lisp -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Lisp">
+        <rdf:type rdf:resource="&software-products-ontology-6;Programming_Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Lucidworks -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Lucidworks">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#MIT_License -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;MIT_License">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_License"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Magnolia -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Magnolia">
+        <rdf:type rdf:resource="&software-products-ontology-6;Java_-_JCR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#MapR_DB -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;MapR_DB">
+        <rdf:type rdf:resource="&software-products-ontology-6;Key-Value"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#MapR_Technologies -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;MapR_Technologies">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Mark-Logic -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Mark-Logic">
+        <rdf:type rdf:resource="&software-products-ontology-6;Document-Oriented"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#MatML -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;MatML">
+        <rdf:type rdf:resource="&software-products-ontology-6;XML-based"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Microsoft -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Microsoft">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+        <hasProducts rdf:resource="&software-products-ontology-6;SQL_Server"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#MongoDB -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;MongoDB">
+        <rdf:type rdf:resource="&software-products-ontology-6;Document-Oriented"/>
+        <softwareLanguage rdf:resource="&software-products-ontology-6;C++"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Moo_Tools -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Moo_Tools">
+        <rdf:type rdf:resource="&software-products-ontology-6;Javascript_Frameworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#MySQL -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;MySQL">
+        <rdf:type rdf:resource="&software-products-ontology-6;Relational_Databases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Neo4J -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Neo4J">
+        <rdf:type rdf:resource="&software-products-ontology-6;Graph_DB"/>
+        <synonym>Neo</synonym>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;Neo_Technology_Inc"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Neo_Technology_Inc -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Neo_Technology_Inc">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#OWL -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;OWL">
+        <rdf:type rdf:resource="&software-products-ontology-6;XML-based"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#ObjectDB -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;ObjectDB">
+        <rdf:type rdf:resource="&software-products-ontology-6;Object_Database"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;ObjectDB_Software"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#ObjectDB_Software -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;ObjectDB_Software">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+        <hasProducts rdf:resource="&software-products-ontology-6;ObjectDB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Objective_C -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Objective_C">
+        <rdf:type rdf:resource="&software-products-ontology-6;Programming_Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Objectivity -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Objectivity">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Open_Link -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Open_Link">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+        <synonym>OpenLink Software</synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Oracle -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Oracle">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Oracle_DB -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Oracle_DB">
+        <rdf:type rdf:resource="&software-products-ontology-6;Relational_Databases"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;Oracle"/>
+        <softwareLicense rdf:resource="&software-products-ontology-6;Proprietary"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Oracle_NoSQL -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Oracle_NoSQL">
+        <rdf:type rdf:resource="&software-products-ontology-6;Key-Value"/>
+        <rdf:type rdf:resource="&software-products-ontology-6;RDF_Database"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#OrientDB -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;OrientDB">
+        <rdf:type rdf:resource="&software-products-ontology-6;Graph_DB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#PHP -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;PHP">
+        <rdf:type rdf:resource="&software-products-ontology-6;Programming_Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Perl -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Perl">
+        <rdf:type rdf:resource="&software-products-ontology-6;Programming_Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Proprietary -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Proprietary">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_License"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Prototype -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Prototype">
+        <rdf:type rdf:resource="&software-products-ontology-6;Javascript_Frameworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Python -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Python">
+        <rdf:type rdf:resource="&software-products-ontology-6;Programming_Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#RDF -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;RDF">
+        <rdf:type rdf:resource="&software-products-ontology-6;XML-based"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#REST -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;REST">
+        <rdf:type rdf:resource="&software-products-ontology-6;Web_Services_Protocol"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Riak -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Riak">
+        <rdf:type rdf:resource="&software-products-ontology-6;Key-Value"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;Basho_Technologies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Ruby -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Ruby">
+        <rdf:type rdf:resource="&software-products-ontology-6;Programming_Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#SAP -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;SAP">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+        <hasProducts rdf:resource="&software-products-ontology-6;Business_Objects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#SOAP -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;SOAP">
+        <rdf:type rdf:resource="&software-products-ontology-6;Web_Services_Protocol"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#SQL_Server -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;SQL_Server">
+        <rdf:type rdf:resource="&software-products-ontology-6;Relational_Databases"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;Microsoft"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#SalesForce -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;SalesForce">
+        <rdf:type rdf:resource="&software-products-ontology-6;Customer_Relationship_Management"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;salesforce.com"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Scala -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Scala">
+        <rdf:type rdf:resource="&software-products-ontology-6;Programming_Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Sharepoint -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Sharepoint">
+        <rdf:type rdf:resource="&software-products-ontology-6;Document_Management_Systems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#SiteCore_CMS -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;SiteCore_CMS">
+        <rdf:type rdf:resource="&software-products-ontology-6;Web_Content_Management_Systems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Titanium_CMS -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Titanium_CMS">
+        <rdf:type rdf:resource="&software-products-ontology-6;Web_Content_Management_Systems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Tridion -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Tridion">
+        <rdf:type rdf:resource="&software-products-ontology-6;Web_Content_Management_Systems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#VelocityGraph -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;VelocityGraph">
+        <rdf:type rdf:resource="&software-products-ontology-6;Graph_DB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Virtuoso -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Virtuoso">
+        <rdf:type rdf:resource="&software-products-ontology-6;Object_Database"/>
+        <rdf:type rdf:resource="&software-products-ontology-6;RDF_Database"/>
+        <softwareLicense rdf:resource="&software-products-ontology-6;Gnu_Public_License"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;Open_Link"/>
+        <softwareLicense rdf:resource="&software-products-ontology-6;Proprietary"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Vivisimo -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Vivisimo">
+        <rdf:type rdf:resource="&software-products-ontology-6;Search_Engines"/>
+        <IsManufacturedBy rdf:resource="&software-products-ontology-6;IBM"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#WordPress -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;WordPress">
+        <rdf:type rdf:resource="&software-products-ontology-6;Web_Content_Management_Systems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#XML -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;XML">
+        <rdf:type rdf:resource="&software-products-ontology-6;Data_Description_Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#i4_Solutions -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;i4_Solutions">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#salesforce.com -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;salesforce.com">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+        <hasProducts rdf:resource="&software-products-ontology-6;SalesForce"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#script.aculo.us -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;script.aculo.us">
+        <rdf:type rdf:resource="&software-products-ontology-6;Javascript_Frameworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#C++ -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;C++">
+        <rdf:type rdf:resource="&software-products-ontology-6;Programming_Language"/>
+        <synonym>C++</synonym>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
