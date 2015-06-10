@@ -1,0 +1,617 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY music-10 "http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#"
+     xml:base="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:music-10="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#hasCompositions -->
+
+    <owl:AnnotationProperty rdf:about="&music-10;hasCompositions"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#hasGenre -->
+
+    <owl:AnnotationProperty rdf:about="&music-10;hasGenre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#hasPerformer -->
+
+    <owl:AnnotationProperty rdf:about="&music-10;hasPerformer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#hasRecordings -->
+
+    <owl:AnnotationProperty rdf:about="&music-10;hasRecordings"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#memberOfGroup -->
+
+    <owl:AnnotationProperty rdf:about="&music-10;memberOfGroup"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Band_Leader -->
+
+    <owl:Class rdf:about="&music-10;Band_Leader">
+        <rdfs:subClassOf rdf:resource="&music-10;Performers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Cellist -->
+
+    <owl:Class rdf:about="&music-10;Cellist">
+        <rdfs:subClassOf rdf:resource="&music-10;Soloist"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Chamber_Music -->
+
+    <owl:Class rdf:about="&music-10;Chamber_Music">
+        <rdfs:subClassOf rdf:resource="&music-10;Small_Ensembles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Choral_Works -->
+
+    <owl:Class rdf:about="&music-10;Choral_Works">
+        <rdfs:subClassOf rdf:resource="&music-10;Compositions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Composers -->
+
+    <owl:Class rdf:about="&music-10;Composers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Compositions -->
+
+    <owl:Class rdf:about="&music-10;Compositions"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Conductor -->
+
+    <owl:Class rdf:about="&music-10;Conductor">
+        <rdfs:subClassOf rdf:resource="&music-10;Performers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Genres -->
+
+    <owl:Class rdf:about="&music-10;Genres"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Groups -->
+
+    <owl:Class rdf:about="&music-10;Groups">
+        <rdfs:subClassOf rdf:resource="&music-10;Performers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Jazz_Band -->
+
+    <owl:Class rdf:about="&music-10;Jazz_Band">
+        <rdfs:subClassOf rdf:resource="&music-10;Orchestra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Orchestra -->
+
+    <owl:Class rdf:about="&music-10;Orchestra">
+        <rdfs:subClassOf rdf:resource="&music-10;Compositions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Performers -->
+
+    <owl:Class rdf:about="&music-10;Performers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Pianist -->
+
+    <owl:Class rdf:about="&music-10;Pianist">
+        <rdfs:subClassOf rdf:resource="&music-10;Soloist"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Recordings -->
+
+    <owl:Class rdf:about="&music-10;Recordings"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Small_Ensembles -->
+
+    <owl:Class rdf:about="&music-10;Small_Ensembles">
+        <rdfs:subClassOf rdf:resource="&music-10;Compositions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Solo_Works -->
+
+    <owl:Class rdf:about="&music-10;Solo_Works">
+        <rdfs:subClassOf rdf:resource="&music-10;Compositions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Soloist -->
+
+    <owl:Class rdf:about="&music-10;Soloist">
+        <rdfs:subClassOf rdf:resource="&music-10;Performers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Symphonic -->
+
+    <owl:Class rdf:about="&music-10;Symphonic">
+        <rdfs:subClassOf rdf:resource="&music-10;Orchestra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Violinist -->
+
+    <owl:Class rdf:about="&music-10;Violinist">
+        <rdfs:subClassOf rdf:resource="&music-10;Soloist"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Beatles -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Beatles">
+        <rdf:type rdf:resource="&music-10;Groups"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Beethoven_Sym_5_Bernstein_1 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Beethoven_Sym_5_Bernstein_1">
+        <rdf:type rdf:resource="&music-10;Recordings"/>
+        <hasPerformer rdf:resource="&music-10;Leonard_Bernstein"/>
+        <hasPerformer rdf:resource="&music-10;New_York_Philharmonic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Beethoven_Sym_5_Kleiber_Vienna -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Beethoven_Sym_5_Kleiber_Vienna">
+        <rdf:type rdf:resource="&music-10;Recordings"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Beethoven_Symphony_Number_1 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Beethoven_Symphony_Number_1">
+        <rdf:type rdf:resource="&music-10;Symphonic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Beethoven_Symphony_Number_5 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Beethoven_Symphony_Number_5">
+        <rdf:type rdf:resource="&music-10;Symphonic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Blues -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Blues">
+        <rdf:type rdf:resource="&music-10;Genres"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Buddy_Guy -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Buddy_Guy">
+        <rdf:type rdf:resource="&music-10;Performers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Carl_Philipp_Emanuel_Bach -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Carl_Philipp_Emanuel_Bach">
+        <rdf:type rdf:resource="&music-10;Composers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Carlos_Kleiber -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Carlos_Kleiber">
+        <rdf:type rdf:resource="&music-10;Performers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Classical -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Classical">
+        <rdf:type rdf:resource="&music-10;Genres"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Cream -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Cream">
+        <rdf:type rdf:resource="&music-10;Groups"/>
+        <hasPerformer rdf:resource="&music-10;Eric_Clapton"/>
+        <hasPerformer rdf:resource="&music-10;Jack_Bruce"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Derek_and_the_Dominoes -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Derek_and_the_Dominoes">
+        <rdf:type rdf:resource="&music-10;Groups"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Duke_Ellington -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Duke_Ellington">
+        <rdf:type rdf:resource="&music-10;Band_Leader"/>
+        <rdf:type rdf:resource="&music-10;Composers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Eagles -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Eagles">
+        <rdf:type rdf:resource="&music-10;Groups"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Eric_Clapton -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Eric_Clapton">
+        <rdf:type rdf:resource="&music-10;Performers"/>
+        <memberOfGroup rdf:resource="&music-10;Cream"/>
+        <memberOfGroup rdf:resource="&music-10;Derek_and_the_Dominoes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Glenn_Miller -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Glenn_Miller">
+        <rdf:type rdf:resource="&music-10;Band_Leader"/>
+        <rdf:type rdf:resource="&music-10;Composers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Houses_of_the_Holy -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Houses_of_the_Holy">
+        <rdf:type rdf:resource="&music-10;Recordings"/>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+        <hasGenre rdf:resource="&music-10;Rock_and_Roll"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Issac_Stern -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Issac_Stern">
+        <rdf:type rdf:resource="&music-10;Violinist"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Itzhak_Perlman -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Itzhak_Perlman">
+        <rdf:type rdf:resource="&music-10;Violinist"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Jack_Bruce -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Jack_Bruce">
+        <rdf:type rdf:resource="&music-10;Performers"/>
+        <memberOfGroup rdf:resource="&music-10;Cream"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Jazz -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Jazz">
+        <rdf:type rdf:resource="&music-10;Genres"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Johann_Sebastian_Bach -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Johann_Sebastian_Bach">
+        <rdf:type rdf:resource="&music-10;Composers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Joseph_Haydn -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Joseph_Haydn">
+        <rdf:type rdf:resource="&music-10;Composers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Led_Zeppelin -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Led_Zeppelin">
+        <rdf:type rdf:resource="&music-10;Groups"/>
+        <hasRecordings rdf:resource="&music-10;Houses_of_the_Holy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Leonard_Bernstein -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Leonard_Bernstein">
+        <rdf:type rdf:resource="&music-10;Conductor"/>
+        <memberOfGroup rdf:resource="&music-10;New_York_Philharmonic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Ludwig_Van_Beethoven -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Ludwig_Van_Beethoven">
+        <rdf:type rdf:resource="&music-10;Composers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Modern_Jazz_Quartet -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Modern_Jazz_Quartet">
+        <rdf:type rdf:resource="&music-10;Groups"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Moonlight_Serenade -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Moonlight_Serenade">
+        <rdf:type rdf:resource="&music-10;Jazz_Band"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Mozart_Symphony_Number_41 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Mozart_Symphony_Number_41">
+        <rdf:type rdf:resource="&music-10;Symphonic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Mstislav_Rostropovich -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Mstislav_Rostropovich">
+        <rdf:type rdf:resource="&music-10;Cellist"/>
+        <rdf:type rdf:resource="&music-10;Conductor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#New_York_Philharmonic -->
+
+    <owl:NamedIndividual rdf:about="&music-10;New_York_Philharmonic">
+        <rdf:type rdf:resource="&music-10;Groups"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Paul_McCartney -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Paul_McCartney">
+        <rdf:type rdf:resource="&music-10;Performers"/>
+        <memberOfGroup rdf:resource="&music-10;Beatles"/>
+        <memberOfGroup rdf:resource="&music-10;Wings"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Piano_Sonata -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Piano_Sonata">
+        <rdf:type rdf:resource="&music-10;Solo_Works"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Pink_Floyd -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Pink_Floyd">
+        <rdf:type rdf:resource="&music-10;Groups"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Ray_Charles -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Ray_Charles">
+        <rdf:type rdf:resource="&music-10;Composers"/>
+        <rdf:type rdf:resource="&music-10;Performers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Robert_Plant -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Robert_Plant">
+        <rdf:type rdf:resource="&music-10;Performers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Rock_and_Roll -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Rock_and_Roll">
+        <rdf:type rdf:resource="&music-10;Genres"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Roger_Daltrey -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Roger_Daltrey">
+        <rdf:type rdf:resource="&music-10;Performers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Take_the_A_Train -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Take_the_A_Train">
+        <rdf:type rdf:resource="&music-10;Jazz_Band"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Who -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Who">
+        <rdf:type rdf:resource="&music-10;Groups"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Vladimir_Ashkenazy -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Vladimir_Ashkenazy">
+        <rdf:type rdf:resource="&music-10;Conductor"/>
+        <rdf:type rdf:resource="&music-10;Pianist"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Vladimir_Horowitz -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Vladimir_Horowitz">
+        <rdf:type rdf:resource="&music-10;Pianist"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Well-Tempered_Clavier_Book_1 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Well-Tempered_Clavier_Book_1">
+        <rdf:type rdf:resource="&music-10;Solo_Works"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Wings -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Wings">
+        <rdf:type rdf:resource="&music-10;Groups"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Wolfgang_Amadeus_Mozart -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Wolfgang_Amadeus_Mozart">
+        <rdf:type rdf:resource="&music-10;Composers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Yo-Yo_Ma -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Yo-Yo_Ma">
+        <rdf:type rdf:resource="&music-10;Cellist"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
