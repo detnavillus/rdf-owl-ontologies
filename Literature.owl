@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#"
+     xml:base="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Book -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Book">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Fiction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Fiction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Murder_Mystery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Murder_Mystery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Fiction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Science_Fiction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Science_Fiction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Fiction"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Agatha_Christie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Agatha_Christie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Charles_Dickens -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Charles_Dickens">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Dick_Francis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Dick_Francis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Ernest_Hemingway -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Ernest_Hemingway">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#James_Agee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#James_Agee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#James_Joyce -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#James_Joyce">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#John_Grishom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#John_Grishom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#John_Steinbeck -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#John_Steinbeck">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#John_Updike -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#John_Updike">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Ken_Follet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Ken_Follet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Mave_Binchey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Mave_Binchey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#PD_James -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#PD_James">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Scott_Turow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Scott_Turow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#William_Falkner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#William_Falkner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Literature-33#Author"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

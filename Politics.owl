@@ -1,0 +1,877 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#"
+     xml:base="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#politicalParty -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#politicalParty"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#synonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#synonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Attorney_General -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Attorney_General">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician"/>
+        <synonym>US Representative</synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor_of_Arizona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor_of_Arizona">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor_of_New_York -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor_of_New_York">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor_of_Texas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor_of_Texas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#House_Majority_Leader -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#House_Majority_Leader">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#House_Minority_Leader -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#House_Minority_Leader">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Justice_Of_The_Supreme_Court -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Justice_Of_The_Supreme_Court">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Political_Party -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Political_Party"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician">
+        <rdfs:label>Public Office</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Prime_Minister -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Prime_Minister">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_Defense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_Defense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_Homeland_Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_Homeland_Security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_The_Treasury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_The_Treasury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Speaker_Of_The_House -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Speaker_Of_The_House">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#United_States_Senator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#United_States_Senator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Vice_President -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Vice_President">
+        <rdfs:label>Vice President Of The United States</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#White_House_Chief_Of_Staff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#White_House_Chief_Of_Staff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Abraham_Lincoln -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Abraham_Lincoln">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+        <politicalParty rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Republican"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Al_Gore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Al_Gore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Vice_President"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Alexander_Haig -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Alexander_Haig">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Alexander_Hamilton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Alexander_Hamilton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_The_Treasury"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Andrew_Cuomo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Andrew_Cuomo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor_of_New_York"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Barak_Obama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Barak_Obama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#United_States_Senator"/>
+        <politicalParty rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Democrat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Bill_Clinton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Bill_Clinton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+        <politicalParty rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Democrat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Charles_Frederick_Crisp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Charles_Frederick_Crisp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#House_Minority_Leader"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Speaker_Of_The_House"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Communist -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Communist">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Political_Party"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Dan_Quayle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Dan_Quayle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Vice_President"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Democrat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Democrat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Political_Party"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Dennis_Hastert -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Dennis_Hastert">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Speaker_Of_The_House"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Dick_Cheney -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Dick_Cheney">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Vice_President"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Dwight_D_Eisenhower -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Dwight_D_Eisenhower">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+        <politicalParty rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Republican"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Elliot_Spitzer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Elliot_Spitzer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor_of_New_York"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Eric_Holder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Eric_Holder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Attorney_General"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Everett_Dirksen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Everett_Dirksen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#United_States_Senator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Federalist -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Federalist">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Political_Party"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Franklin_D_Roosevelt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Franklin_D_Roosevelt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor_of_New_York"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+        <politicalParty rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Democrat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#George_H_W_Bush -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#George_H_W_Bush">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Vice_President"/>
+        <politicalParty rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Republican"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#George_W_Bush -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#George_W_Bush">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+        <politicalParty rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Republican"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#George_Washington -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#George_Washington">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Gerald_Ford -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Gerald_Ford">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Vice_President"/>
+        <politicalParty rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Republican"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Harry_Truman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Harry_Truman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Vice_President"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Henry_Clay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Henry_Clay">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_State"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Speaker_Of_The_House"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#United_States_Senator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Hillary_Clinton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Hillary_Clinton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_State"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#United_States_Senator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Hubert_Humphrey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Hubert_Humphrey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Vice_President"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Hugh_Carey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Hugh_Carey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor_of_New_York"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Jack_Lew -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Jack_Lew">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_The_Treasury"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#James_Baker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#James_Baker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_The_Treasury"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#White_House_Chief_Of_Staff"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Janet_Napolitano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Janet_Napolitano">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor_of_Arizona"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_Homeland_Security"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Janet_Reno -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Janet_Reno">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Attorney_General"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Jim_Wright -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Jim_Wright">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Speaker_Of_The_House"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Jimmy_Carter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Jimmy_Carter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+        <politicalParty rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Democrat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Joe_Biden -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Joe_Biden">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#United_States_Senator"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Vice_President"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#John_Adams -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#John_Adams">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#John_Ashcroft -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#John_Ashcroft">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Attorney_General"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#United_States_Senator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#John_Boehner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#John_Boehner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Speaker_Of_The_House"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#John_Connally -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#John_Connally">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor_of_Texas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_The_Treasury"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#John_F_Kennedy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#John_F_Kennedy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+        <politicalParty rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Democrat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#John_McCain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#John_McCain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#United_States_Senator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#John_Quincy_Adams -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#John_Quincy_Adams">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#John_William_McCormack -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#John_William_McCormack">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Speaker_Of_The_House"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Joseph_W_Byrns_Sr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Joseph_W_Byrns_Sr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Speaker_Of_The_House"/>
+        <rdfs:label>Joseph W. Byrns, Sr.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Joseph_William_Martin_Jr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Joseph_William_Martin_Jr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Speaker_Of_The_House"/>
+        <rdfs:label>Joseph William Martin, Jr.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Libertarian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Libertarian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Political_Party"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Lyndon_Baines_Johnson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Lyndon_Baines_Johnson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Vice_President"/>
+        <politicalParty rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Democrat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Mario_Cuomo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Mario_Cuomo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor_of_New_York"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Nancy_Pelosi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Nancy_Pelosi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Speaker_Of_The_House"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Nelson_Rockefeller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Nelson_Rockefeller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor_of_New_York"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Vice_President"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Newt_Gingrich -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Newt_Gingrich">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Speaker_Of_The_House"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Orin_Hatch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Orin_Hatch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#United_States_Senator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Republican -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Republican">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Political_Party"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Richard_Nixon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Richard_Nixon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Vice_President"/>
+        <synonym>Richard M Nixon</synonym>
+        <politicalParty rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Republican"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Roger_B_Taney -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Roger_B_Taney">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Attorney_General"/>
+        <rdfs:comment>Roger B. Taney</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Ronald_Regan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Ronald_Regan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+        <politicalParty rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Republican"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Salmon_P_Chase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Salmon_P_Chase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Justice_Of_The_Supreme_Court"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_The_Treasury"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Sam_Rayburn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Sam_Rayburn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Speaker_Of_The_House"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Spiro_T_Agnew -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Spiro_T_Agnew">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Vice_President"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Ted_Kennedy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Ted_Kennedy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#United_States_Senator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Theodore_Roosevelt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Theodore_Roosevelt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+        <politicalParty rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Republican"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Thomas_Brackett_Reed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Thomas_Brackett_Reed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Speaker_Of_The_House"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Thomas_E_Dewey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Thomas_E_Dewey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor_of_New_York"/>
+        <rdfs:label>Thomas E. Dewey</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Thomas_Jefferson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Thomas_Jefferson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#President_Of_The_United_States"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Timothy_Geithner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Timothy_Geithner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_The_Treasury"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Tip_ONeill -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Tip_ONeill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Speaker_Of_The_House"/>
+        <rdfs:label>Tip O&apos;Neill</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Tom_Foley -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Tom_Foley">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Speaker_Of_The_House"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Walter_Mondale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Walter_Mondale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#United_States_Senator"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Vice_President"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Whig -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Whig">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Political_Party"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Wilbur_Mills -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Wilbur_Mills">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Congressman"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#William_H_Seward -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#William_H_Seward">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Governor_of_New_York"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Secretary_Of_State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#William_Pelham_Barr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#William_Pelham_Barr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Attorney_General"/>
+        <synonym>William P Barr</synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#William_Wirt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#William_Wirt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Politics-34#Attorney_General"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
