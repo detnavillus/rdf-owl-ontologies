@@ -1,0 +1,523 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#"
+     xml:base="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Aircraft_Manufacturing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Aircraft_Manufacturing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Manufacturing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Automobile_Manufacturing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Automobile_Manufacturing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Manufacturing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#British_Corporations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#British_Corporations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Foreign_Corporations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Commercial_Bank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Commercial_Bank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Financial_Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Consulting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Consulting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Financial_Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Electrical_Equipment_Manufacturing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Electrical_Equipment_Manufacturing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Manufacturing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Energy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Energy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Financial_Advisor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Financial_Advisor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Financial_Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Financial_Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Financial_Services"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Food"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Foreign_Corporations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Foreign_Corporations">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Fortune_100_Companies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Fortune_100_Companies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#US_Corporations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#French_Corporations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#French_Corporations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Foreign_Corporations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#German_Corporations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#German_Corporations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Foreign_Corporations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Health_Care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Health_Care"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Hospitality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Hospitality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Investment_Bank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Investment_Bank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Financial_Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Italian_Corporations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Italian_Corporations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Foreign_Corporations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Japanese_Corporations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Japanese_Corporations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Foreign_Corporations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Manufacturing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Manufacturing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Medical_Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Medical_Equipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Health_Care"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Manufacturing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Oil_Exploration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Oil_Exploration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Energy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Pharmaceutical_Manufacturer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Pharmaceutical_Manufacturer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Health_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Retail_Stores -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Retail_Stores"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Solar_Energy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Solar_Energy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Energy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#US_Corporations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#US_Corporations"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#BMW -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#BMW">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Automobile_Manufacturing"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#German_Corporations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Bank_Of_America -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Bank_Of_America">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Commercial_Bank"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Capital_One -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Capital_One">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Commercial_Bank"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Charles_Schwabb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Charles_Schwabb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Financial_Advisor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Chase_Bank -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Chase_Bank">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Commercial_Bank"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Chrysler -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Chrysler">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Automobile_Manufacturing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Citibank -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Citibank">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Commercial_Bank"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Credit_Suisse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Credit_Suisse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Investment_Bank"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Deloitte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Deloitte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Consulting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Exxon_Mobil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Exxon_Mobil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Oil_Exploration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Fidelity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Fidelity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Financial_Advisor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Ford_Motor_Company -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Ford_Motor_Company">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Automobile_Manufacturing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Fortunoffs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Fortunoffs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Retail_Stores"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Franklin_Templeton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Franklin_Templeton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Financial_Advisor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#General_Electric -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#General_Electric">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Electrical_Equipment_Manufacturing"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Fortune_100_Companies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#General_Mills -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#General_Mills">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#General_Motors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#General_Motors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Automobile_Manufacturing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Goldman_Sachs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Goldman_Sachs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Investment_Bank"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#JC_Penney -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#JC_Penney">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Retail_Stores"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#JP_Morgan_Chase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#JP_Morgan_Chase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Investment_Bank"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#K_Mart -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#K_Mart">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Retail_Stores"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Kraft -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Kraft">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Lord_And_Taylor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Lord_And_Taylor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Retail_Stores"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Macys -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Macys">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Retail_Stores"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#McKinsey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#McKinsey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Consulting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Medtronix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Medtronix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Medical_Equipment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Mitsubishi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Mitsubishi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Automobile_Manufacturing"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Japanese_Corporations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Morgan_Stanley -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Morgan_Stanley">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Financial_Advisor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Nordstroms -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Nordstroms">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Retail_Stores"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Price_Waterhouse_Cooper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Price_Waterhouse_Cooper">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Consulting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Sears -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Sears">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Retail_Stores"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Target -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Target">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Retail_Stores"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Toyota -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Toyota">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Automobile_Manufacturing"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Japanese_Corporations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Walmart -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Walmart">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Retail_Stores"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Wells_Fargo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Wells_Fargo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tedsullivan/ontologies/2015/5/Companies-38#Commercial_Bank"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
