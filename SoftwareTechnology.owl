@@ -3004,6 +3004,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Teradata_Active_Warehouse_Enterprise_Data_Warehouse -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Teradata_Active_Warehouse_Enterprise_Data_Warehouse">
+        <rdf:type rdf:resource="&software-products-ontology-6;Data_Warehouse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Teradata_Corporation -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Teradata_Corporation">
+        <rdf:type rdf:resource="&software-products-ontology-6;Software_Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Teradata_Database -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Teradata_Database">
+        <rdf:type rdf:resource="&software-products-ontology-6;Relational_Databases"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Thesaurus_Master -->
 
     <owl:NamedIndividual rdf:about="&software-products-ontology-6;Thesaurus_Master">
