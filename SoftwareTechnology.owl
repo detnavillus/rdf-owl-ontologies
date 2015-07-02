@@ -210,6 +210,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Governance -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Governance">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Security"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Graph_DB -->
 
     <owl:Class rdf:about="&software-products-ontology-6;Graph_DB">
@@ -287,6 +295,14 @@
 
     <owl:Class rdf:about="&software-products-ontology-6;Log_Analysis">
         <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Analytics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Management_Tools -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Management_Tools">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Distributed_Computing_Frameworks"/>
     </owl:Class>
     
 
@@ -412,6 +428,14 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Search_Engines -->
 
     <owl:Class rdf:about="&software-products-ontology-6;Search_Engines">
+        <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Software_Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Security -->
+
+    <owl:Class rdf:about="&software-products-ontology-6;Security">
         <rdfs:subClassOf rdf:resource="&software-products-ontology-6;Software_Product"/>
     </owl:Class>
     
@@ -831,6 +855,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Apache_Sentry -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Apache_Sentry">
+        <rdf:type rdf:resource="&software-products-ontology-6;Security"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Apache_Software_Foundation -->
 
     <owl:NamedIndividual rdf:about="&software-products-ontology-6;Apache_Software_Foundation">
@@ -847,6 +879,14 @@
     <owl:NamedIndividual rdf:about="&software-products-ontology-6;Apache_Solr">
         <rdf:type rdf:resource="&software-products-ontology-6;Search_Engines"/>
         <synonym>Solr</synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Apache_Spark -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Apache_Spark">
+        <rdf:type rdf:resource="&software-products-ontology-6;Distributed_Computing_Frameworks"/>
     </owl:NamedIndividual>
     
 
@@ -1112,6 +1152,22 @@
     <owl:NamedIndividual rdf:about="&software-products-ontology-6;Cloudera_Enterprise">
         <rdf:type rdf:resource="&software-products-ontology-6;Distributed_Computing_Frameworks"/>
         <IsManufacturedBy rdf:resource="&software-products-ontology-6;Cloudera"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Cloudera_Manager -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Cloudera_Manager">
+        <rdf:type rdf:resource="&software-products-ontology-6;Management_Tools"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/software-products-ontology-6#Cloudera_Navigator -->
+
+    <owl:NamedIndividual rdf:about="&software-products-ontology-6;Cloudera_Navigator">
+        <rdf:type rdf:resource="&software-products-ontology-6;Governance"/>
     </owl:NamedIndividual>
     
 
