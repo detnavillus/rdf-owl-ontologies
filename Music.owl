@@ -2640,6 +2640,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Almost_Like_Being_In_Love">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Almost Like Being In Love</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2648,6 +2649,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Alone_Together">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Alone Together</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2683,6 +2685,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Always">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Always</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2691,6 +2694,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Always_On_My_Mind">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Always On My Mind</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4336,6 +4340,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;B_Minor_Mass">
         <rdf:type rdf:resource="&music-10;Mass"/>
+        <rdfs:label>B Minor Mass</rdfs:label>
         <composer rdf:resource="&music-10;Johann_Sebastian_Bach"/>
     </owl:NamedIndividual>
     
@@ -4722,6 +4727,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Barbados">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Barbados</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4767,6 +4773,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Bargain">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Bargain</rdfs:label>
         <composer rdf:resource="&music-10;Pete_Townshend"/>
         <hasPerformer rdf:resource="&music-10;The_Who"/>
     </owl:NamedIndividual>
@@ -4795,6 +4802,12 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Barracuda">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Barracuda</rdfs:label>
+        <composer rdf:resource="&music-10;Ann_Wilson"/>
+        <hasPerformer rdf:resource="&music-10;Heart"/>
+        <composer rdf:resource="&music-10;Michael_Derosier"/>
+        <composer rdf:resource="&music-10;Nancy_Wilson_-_heart"/>
+        <composer rdf:resource="&music-10;Roger_Fisher"/>
     </owl:NamedIndividual>
     
 
@@ -6569,6 +6582,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Blackbird">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Blackbird</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Beatles"/>
         <composer rdf:resource="&music-10;John_Lennon"/>
         <composer rdf:resource="&music-10;Paul_McCartney"/>
@@ -6591,6 +6605,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Blessed">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Blessed</rdfs:label>
         <composer rdf:resource="&music-10;Paul_Simon"/>
     </owl:NamedIndividual>
     
@@ -7540,6 +7555,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Bossa_Nova_Baby">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Bossa Nova Baby</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -7635,6 +7651,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Boys">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Boys</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Beatles"/>
         <composer rdf:resource="&music-10;Luther_Dixon"/>
         <hasPerformer rdf:resource="&music-10;The_Shirelles"/>
@@ -8197,6 +8214,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Bugle_Call_Rag">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Bugle Call Rag</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -8246,6 +8264,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Burn">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Burn</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -8296,6 +8315,8 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Busted">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Busted</rdfs:label>
+        <composer rdf:resource="&music-10;Harlan_Howard"/>
         <hasPerformer rdf:resource="&music-10;Johnny_Cash"/>
         <hasPerformer rdf:resource="&music-10;Ray_Charles"/>
     </owl:NamedIndividual>
@@ -8368,6 +8389,9 @@
 
     <owl:NamedIndividual rdf:about="&music-10;By_And_By">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>By And By</rdfs:label>
+        <rdfs:label>Traditional</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Elvis_Presley"/>
     </owl:NamedIndividual>
     
 
@@ -8376,6 +8400,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;By_the_Light_of_the_Silvery_Moon">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>By The Light Of The Silvery Moon</rdfs:label>
         <lyricsBy rdf:resource="&music-10;Edward_Madden"/>
         <composer rdf:resource="&music-10;Gus_Edwards"/>
         <hasPerformer rdf:resource="&music-10;Little_Richard"/>
@@ -8411,6 +8436,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Bye_Bye_Blues">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Bye Bye Blues</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -8512,6 +8538,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Californication">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Californication</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Red_Hot_Chili_Peppers"/>
     </owl:NamedIndividual>
     
@@ -8550,6 +8577,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Can_You_Stop_the_Rain">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Can You Stop The Rain</rdfs:label>
         <composer rdf:resource="&music-10;Peabo_Bryson"/>
         <hasPerformer rdf:resource="&music-10;Peabo_Bryson"/>
     </owl:NamedIndividual>
@@ -8588,6 +8616,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Candyman">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Candyman</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -8713,6 +8742,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Caravan">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Caravan</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -8721,6 +8751,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Carioca">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Carioca</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -9022,6 +9053,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Castles_Made_Of_Sand">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Castles Made Of Sand</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -9529,6 +9561,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Charro">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Charro</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -9568,6 +9601,8 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Cheek_To_Cheek">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Cheek To Cheek</rdfs:label>
+        <composer rdf:resource="&music-10;Irving_Berlin"/>
     </owl:NamedIndividual>
     
 
@@ -9576,6 +9611,9 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Chelsea_Bridge">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Chelsea Bridge</rdfs:label>
+        <composer rdf:resource="&music-10;Billy_Strayhorn"/>
+        <hasPerformer rdf:resource="&music-10;Duke_Ellington_Orchestra"/>
     </owl:NamedIndividual>
     
 
@@ -9593,6 +9631,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Cherish">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Cherish</rdfs:label>
         <composer rdf:resource="&music-10;Terry_Kirkman"/>
     </owl:NamedIndividual>
     
@@ -9623,6 +9662,9 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Cherry">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Cherry, Cherry</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Neil_Diamond"/>
+        <composer rdf:resource="&music-10;Neil_Diamond"/>
     </owl:NamedIndividual>
     
 
@@ -9631,6 +9673,10 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Cherry_Bomb">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Cherry Bomb</rdfs:label>
+        <composer rdf:resource="&music-10;Joan_Jett"/>
+        <composer rdf:resource="&music-10;Kim_Fowley"/>
+        <hasPerformer rdf:resource="&music-10;The_Runaways"/>
     </owl:NamedIndividual>
     
 
@@ -9648,6 +9694,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Chest_Fever">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Chest Fever</rdfs:label>
         <composer rdf:resource="&music-10;Robbie_Robertson"/>
     </owl:NamedIndividual>
     
@@ -9729,6 +9776,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Chimes_Blues">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Chimes Blues</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Joe_Olivers_Creole_Jazz_Band"/>
     </owl:NamedIndividual>
     
@@ -9762,6 +9810,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Chip_Chip">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Chip Chip</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Gene_McDaniels"/>
         <composer rdf:resource="&music-10;Jeff_Barry"/>
     </owl:NamedIndividual>
@@ -9785,6 +9834,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Chloe">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Chloe</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -9929,6 +9979,8 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Christopher_Columbus">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Christopher Columbus</rdfs:label>
+        <composer>Traditional</composer>
     </owl:NamedIndividual>
     
 
@@ -10026,6 +10078,8 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Cindy_Cindy">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Cindy Cindy</rdfs:label>
+        <composer>Traditional</composer>
     </owl:NamedIndividual>
     
 
@@ -10179,6 +10233,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Claudette">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Claudette</rdfs:label>
         <composer rdf:resource="&music-10;Roy_Orbison"/>
     </owl:NamedIndividual>
     
@@ -10242,6 +10297,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Clear_as_the_Driven_Snow">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Clear As The Driven Snow</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Doobie_Brothers"/>
     </owl:NamedIndividual>
     
@@ -10345,6 +10401,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Close_To_Five">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Close To Five</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Mary_Lou_Williams"/>
         <composer rdf:resource="&music-10;Mary_Lou_Williams"/>
     </owl:NamedIndividual>
@@ -10355,6 +10412,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Close_Your_Eyes">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Close Your Eyes</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -10363,6 +10421,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Cloudy">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Cloudy</rdfs:label>
         <composer rdf:resource="&music-10;Paul_Simon"/>
         <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
     </owl:NamedIndividual>
@@ -10382,6 +10441,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Cocktails_For_Two">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Cocktails For Two</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -10436,6 +10496,8 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Colour_My_World">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Colour My World</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Chicago"/>
     </owl:NamedIndividual>
     
 
@@ -10453,6 +10515,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Come_On_in_My_Kitchen">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Come Into My Kitchen</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Allman_Brothers_Band"/>
         <hasGenre rdf:resource="&music-10;Blues"/>
         <composer rdf:resource="&music-10;Robert_Johnson"/>
@@ -10465,6 +10528,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Come_Rain_or_Come_Shine">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Come Rain Or Come Shine</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -10473,6 +10537,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Come_Sunday">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Come Sunday</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -10481,6 +10546,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Come_Sundown">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Come Sundown</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bobby_Bare"/>
         <composer rdf:resource="&music-10;Kris_Kristofferson"/>
     </owl:NamedIndividual>
@@ -10491,6 +10557,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Come_Together">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Come Together</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Beatles"/>
         <composer rdf:resource="&music-10;John_Lennon"/>
         <composer rdf:resource="&music-10;Paul_McCartney"/>
@@ -10503,6 +10570,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Come_What_May">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Come What May</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -10511,6 +10579,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Come_to_My_Window">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Come To My Window</rdfs:label>
         <composer rdf:resource="&music-10;Melissa_Etheridge"/>
         <hasPerformer rdf:resource="&music-10;Melissa_Etheridge"/>
         <hasGenre rdf:resource="&music-10;Rock_and_Roll"/>
@@ -10522,6 +10591,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Comes_Love">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Comes Love</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -10530,6 +10600,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Comfortably_Numb">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Comfortably Numb</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Pink_Floyd"/>
     </owl:NamedIndividual>
     
@@ -10539,6 +10610,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Coming_Home">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Coming Home</rdfs:label>
         <composer rdf:resource="&music-10;Roy_Orbison"/>
     </owl:NamedIndividual>
     
@@ -10567,6 +10639,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Communication_Breakdown_Led_Zeppelin">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Communication Breakdown</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
@@ -10586,6 +10659,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Con_Alma">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Con Alma</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -10621,6 +10695,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Confirmation">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Confirmation</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -10629,6 +10704,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Congratulations">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Congratulations</rdfs:label>
         <composer rdf:resource="&music-10;Paul_Simon"/>
     </owl:NamedIndividual>
     
@@ -10699,6 +10775,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Coquette">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Coquette</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -10734,6 +10811,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Coronation_Mass">
         <rdf:type rdf:resource="&music-10;Mass"/>
+        <rdfs:label>Coronation Mass</rdfs:label>
         <composer rdf:resource="&music-10;Wolfgang_Amadeus_Mozart"/>
     </owl:NamedIndividual>
     
@@ -10743,6 +10821,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Cottontail">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Cottontail</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -10864,6 +10943,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Crawling_Back">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Crawling Back</rdfs:label>
         <composer rdf:resource="&music-10;Roy_Orbison"/>
     </owl:NamedIndividual>
     
@@ -10873,6 +10953,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Crazy">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Crazy</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -11022,6 +11103,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Crossroads">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Crossroads</rdfs:label>
         <synonym>Cross Road Blues</synonym>
         <hasGenre rdf:resource="&music-10;Blues"/>
         <hasPerformer rdf:resource="&music-10;Cream"/>
@@ -11098,6 +11180,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Crying">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Crying</rdfs:label>
         <composer rdf:resource="&music-10;Roy_Orbison"/>
     </owl:NamedIndividual>
     
@@ -11116,6 +11199,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Crying_My_Heart_Out_for_You">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Crying My Heart Out For You</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -11929,6 +12013,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Daydream">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Daydream</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Chet_Atkins"/>
         <composer rdf:resource="&music-10;John_Sebastian"/>
         <hasPerformer rdf:resource="&music-10;The_Lovin_Spoonful"/>
@@ -15859,6 +15944,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Fire">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Fire</rdfs:label>
         <composer rdf:resource="&music-10;Jimi_Hendrix"/>
     </owl:NamedIndividual>
     
@@ -15923,6 +16009,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Flamingo">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Flamingo</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16034,6 +16121,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Flying">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Flying</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Beatles"/>
         <composer rdf:resource="&music-10;George_Harrison"/>
         <composer rdf:resource="&music-10;John_Lennon"/>
@@ -16741,6 +16829,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Free_Nelson_Mandela">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Free Nelson Mandela</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16749,6 +16838,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Freedom">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Freedom</rdfs:label>
         <composer rdf:resource="&music-10;Richie_Havens"/>
     </owl:NamedIndividual>
     
@@ -16770,6 +16860,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Freedom_Song">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Freedom Song</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16778,6 +16869,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Frenesi">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Frenesi</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16818,6 +16910,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Friends_in_Low_Places">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Friends In Low Places</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16854,6 +16947,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Froggy_Bottom">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Froggy Bottom</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Mary_Lou_Williams"/>
     </owl:NamedIndividual>
     
@@ -16874,6 +16968,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;From_Four_Until_Late">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>From Four Until Late</rdfs:label>
         <hasGenre rdf:resource="&music-10;Blues"/>
         <hasPerformer rdf:resource="&music-10;Robert_Johnson"/>
         <composer rdf:resource="&music-10;Robert_Johnson"/>
@@ -16885,6 +16980,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;From_Out_Of_Nowhere">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>From Out Of Nowhere</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16893,6 +16989,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;From_The_Beginning">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>From The Beginning</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16911,6 +17008,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;From_a_Distance">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>From A Distance</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Byrds"/>
     </owl:NamedIndividual>
     
@@ -16920,6 +17018,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Frosty_The_Snowman">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Frosty The Snowman</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16928,6 +17027,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Full_Circle">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Full Circle</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Byrds"/>
     </owl:NamedIndividual>
     
@@ -16974,6 +17074,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Galveston">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Galveston</rdfs:label>
         <composer rdf:resource="&music-10;Glenn_Campbell"/>
     </owl:NamedIndividual>
     
@@ -16983,6 +17084,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Game_Of_Love">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Game Of Love</rdfs:label>
         <hasPerformer rdf:resource="&music-10;The_Mindbenders"/>
         <hasPerformer rdf:resource="&music-10;Wayne_Fontana"/>
     </owl:NamedIndividual>
@@ -17259,6 +17361,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Gently">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Gently</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Elvis_Presley"/>
         <composer rdf:resource="&music-10;Murray_Wisell"/>
     </owl:NamedIndividual>
@@ -17498,6 +17601,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Georgia">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Georgia</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Wild_Bill_Davidson"/>
     </owl:NamedIndividual>
     
@@ -17611,6 +17715,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Get_Me_To_The_Church_On_Time">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Get Me To The Church On Time</rdfs:label>
         <lyricsBy rdf:resource="&music-10;Alan_Jay_Lerner"/>
         <composer rdf:resource="&music-10;Frederick_Loewe"/>
     </owl:NamedIndividual>
@@ -17621,6 +17726,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Get_Out_Of_Denver">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Get Out Of Denver</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Seger"/>
         <composer rdf:resource="&music-10;Bob_Seger"/>
     </owl:NamedIndividual>
@@ -17631,6 +17737,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Get_Out_Of_Town">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Get Out Of Town</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -17662,6 +17769,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Getting_Better">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Getting Better</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Beatles"/>
         <composer rdf:resource="&music-10;Paul_McCartney"/>
         <hasGenre rdf:resource="&music-10;Rock_and_Roll"/>
@@ -17681,6 +17789,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Ghost_Of_A_Chance">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Ghost Of A Chance</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Wild_Bill_Davidson"/>
     </owl:NamedIndividual>
     
@@ -17690,6 +17799,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Ghost_Riders_In_the_Sky">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Ghost Riders In The Sky</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Elvis_Presley"/>
     </owl:NamedIndividual>
     
@@ -17774,6 +17884,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Gimme_Some_Time">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Gimme Some Time</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Natalie_Cole"/>
         <hasPerformer rdf:resource="&music-10;Peabo_Bryson"/>
     </owl:NamedIndividual>
@@ -17884,6 +17995,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Girls_Are_Out_to_Get_You">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Girls Are Out To Get You</rdfs:label>
         <composer rdf:resource="&music-10;Curtis_Mayfield"/>
         <hasPerformer rdf:resource="&music-10;The_Fascinations"/>
     </owl:NamedIndividual>
@@ -17932,6 +18044,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Give_Me_the_Right">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Give Me The Right</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Elvis_Presley"/>
     </owl:NamedIndividual>
     
@@ -17941,6 +18054,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Glad">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Glad</rdfs:label>
         <composer rdf:resource="&music-10;Steve_Winwood"/>
         <hasPerformer rdf:resource="&music-10;Traffic"/>
     </owl:NamedIndividual>
@@ -18083,6 +18197,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Go_Go_Go">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Go Go Go</rdfs:label>
         <composer rdf:resource="&music-10;Roy_Orbison"/>
     </owl:NamedIndividual>
     
@@ -18092,6 +18207,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Go_Your_Own_Way">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Go Your Own Way</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Fleetwood_Mac"/>
     </owl:NamedIndividual>
     
@@ -18220,6 +18336,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Gone_with_the_Wind">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Gone With The Wind</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -18228,6 +18345,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Gonna_Get_Back_Home_Somehow">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Gonna Get Back Home Somehow</rdfs:label>
         <composer rdf:resource="&music-10;Doc_Pomus"/>
         <hasPerformer rdf:resource="&music-10;Elvis_Presley"/>
         <composer rdf:resource="&music-10;Mort_Shuman"/>
@@ -18389,6 +18507,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Got_To_Get_You_Into_My_Life">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Got To Get You Into My Life</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Beatles"/>
         <composer rdf:resource="&music-10;John_Lennon"/>
         <composer rdf:resource="&music-10;Paul_McCartney"/>
@@ -18543,6 +18662,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Greensleeves">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Greensleeves</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -19257,6 +19377,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Have_A_Good_Time">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Have A Good Time</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -19276,6 +19397,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Have_You_Met_Miss_Jones">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Have You Met Miss Jones</rdfs:label>
         <composer rdf:resource="&music-10;Richard_Rogers"/>
     </owl:NamedIndividual>
     
@@ -19285,6 +19407,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Have_You_Seen_Her">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Have You Seen Her</rdfs:label>
         <composer rdf:resource="&music-10;Eugene_Record"/>
         <hasPerformer rdf:resource="&music-10;The_ChiLites"/>
     </owl:NamedIndividual>
@@ -19305,6 +19428,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Having_a_Party">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Having A Party</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Sam_Cooke"/>
         <composer rdf:resource="&music-10;Sam_Cooke"/>
     </owl:NamedIndividual>
@@ -19324,6 +19448,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;He_Stopped_Loving_Her_Today">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>He Stopped Loving Her Today</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -19351,6 +19476,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Heading_Out_to_the_Highway">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Heading Out To The Highway</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Judas_Priest"/>
     </owl:NamedIndividual>
     
@@ -19392,6 +19518,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Heat_Wave">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Heat Wave</rdfs:label>
         <composer rdf:resource="&music-10;Brian_Holland"/>
         <composer rdf:resource="&music-10;Eddie_Holland"/>
         <composer rdf:resource="&music-10;Lamont_Dozier"/>
@@ -19549,6 +19676,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Help">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Help!</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Beatles"/>
         <composer rdf:resource="&music-10;John_Lennon"/>
         <composer rdf:resource="&music-10;Paul_McCartney"/>
@@ -19592,6 +19720,15 @@
         <composer rdf:resource="&music-10;John_Lennon"/>
         <composer rdf:resource="&music-10;Paul_McCartney"/>
         <hasGenre rdf:resource="&music-10;Rock_and_Roll"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Henry_Cosby -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Henry_Cosby">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Hank Cosby</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -19944,6 +20081,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;High_Time">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>High Time</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Grateful_Dead"/>
     </owl:NamedIndividual>
     
@@ -20036,6 +20174,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Homburg">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Homburg</rdfs:label>
         <composer rdf:resource="&music-10;Gary_Brooker"/>
         <hasPerformer rdf:resource="&music-10;Keith_Reid"/>
         <hasPerformer rdf:resource="&music-10;Procol_Harum"/>
@@ -21153,6 +21292,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;I_Wished_On_The_Moon">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>I Wished On The Moon</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -21685,6 +21825,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Imagination">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Imagination</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -21693,6 +21834,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Imagine">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Imagine</rdfs:label>
         <hasPerformer rdf:resource="&music-10;John_Lennon"/>
         <composer rdf:resource="&music-10;John_Lennon"/>
     </owl:NamedIndividual>
@@ -21861,6 +22003,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Invitation">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Invitation</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Les_Brown_And_His_Band_Of_Renown"/>
     </owl:NamedIndividual>
     
@@ -22223,15 +22366,6 @@
         <composer rdf:resource="&music-10;Eduardo_di_Capua"/>
         <hasPerformer rdf:resource="&music-10;Elvis_Presley"/>
         <composer rdf:resource="&music-10;Wally_Gold"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Its_Only_A_Paper_Moon -->
-
-    <owl:NamedIndividual rdf:about="&music-10;Its_Only_A_Paper_Moon">
-        <rdf:type rdf:resource="&music-10;Song"/>
-        <rdfs:label>It&apos;s Only A Paper Moon</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -23453,6 +23587,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Jerusalem">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Jerusalem</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Emerson_Lake_and_Palmer"/>
     </owl:NamedIndividual>
     
@@ -23462,6 +23597,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Jesse">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Jesse</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -23470,6 +23606,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Jessica">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Jessica</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Allman_Brothers_Band"/>
     </owl:NamedIndividual>
     
@@ -25579,6 +25716,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Jungleland">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Jungleland</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bruce_Springsteen"/>
         <composer rdf:resource="&music-10;Bruce_Springsteen"/>
         <hasPerformer rdf:resource="&music-10;E_Street_Band"/>
@@ -26323,6 +26461,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Kim_Fowley -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Kim_Fowley">
+        <rdf:type rdf:resource="&music-10;Producer"/>
+        <rdf:type rdf:resource="&music-10;Singer"/>
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Kim Fowley</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Kim_Weston -->
 
     <owl:NamedIndividual rdf:about="&music-10;Kim_Weston">
@@ -26562,6 +26711,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Kodachrome">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Kodachrome</rdfs:label>
         <composer rdf:resource="&music-10;Paul_Simon"/>
     </owl:NamedIndividual>
     
@@ -26668,6 +26818,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Kush">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Kush</rdfs:label>
         <composer rdf:resource="&music-10;Dr_Dre"/>
         <hasPerformer rdf:resource="&music-10;Snoop_Dog"/>
     </owl:NamedIndividual>
@@ -26695,6 +26846,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;L_enfance_du_Christ">
         <rdf:type rdf:resource="&music-10;Oratorio"/>
+        <rdfs:label>L&apos;enfance du Christ</rdfs:label>
         <composer rdf:resource="&music-10;Hector_Berlioz"/>
     </owl:NamedIndividual>
     
@@ -26713,6 +26865,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;La_Bamba">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>La Bamba</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Los_Lobos"/>
         <hasPerformer rdf:resource="&music-10;Ritchie_Valens"/>
     </owl:NamedIndividual>
@@ -26844,6 +26997,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;La_terza_luna">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>La Terza Luna</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -26885,6 +27039,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Lady_of_the_Night">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Lady Of The Night</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Donna_Summer"/>
     </owl:NamedIndividual>
     
@@ -26904,6 +27059,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Lana">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Lana</rdfs:label>
         <composer rdf:resource="&music-10;Roy_Orbison"/>
     </owl:NamedIndividual>
     
@@ -26987,6 +27143,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Last_Fair_Deal_Gone_Down">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Last Fair Deal Gone Down</rdfs:label>
         <hasGenre rdf:resource="&music-10;Blues"/>
         <composer rdf:resource="&music-10;Robert_Johnson"/>
         <hasPerformer rdf:resource="&music-10;Robert_Johnson"/>
@@ -27008,6 +27165,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Last_Train_to_Clarksville">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Last Train To Clarksville</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Monkees"/>
     </owl:NamedIndividual>
     
@@ -27026,6 +27184,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Laughter_in_the_Rain">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Laughter In The Rain</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -27140,6 +27299,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Leah">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Leah</rdfs:label>
         <composer rdf:resource="&music-10;Roy_Orbison"/>
     </owl:NamedIndividual>
     
@@ -27149,6 +27309,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Lean_On_Me">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Lean On Me</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bill_Withers"/>
     </owl:NamedIndividual>
     
@@ -27158,6 +27319,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Leap_Frog">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Leap Frog</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Les_Brown_And_His_Band_Of_Renown"/>
     </owl:NamedIndividual>
     
@@ -27177,6 +27339,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Leaves_That_Are_Green">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Leaves That Are Green</rdfs:label>
         <composer rdf:resource="&music-10;Paul_Simon"/>
         <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
     </owl:NamedIndividual>
@@ -27508,6 +27671,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Les_Brers_in_A_Minor">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Les Brers In A Minor</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Allman_Brothers_Band"/>
     </owl:NamedIndividual>
     
@@ -27584,6 +27748,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Lester_Leaps_In">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Lester Leaps In</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -28014,6 +28179,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Little_Girl_Blue">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Little Girl Blue</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -28022,6 +28188,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Little_Green_Apples">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Little Green Apples</rdfs:label>
         <hasPerformer rdf:resource="&music-10;O_C_Smith"/>
     </owl:NamedIndividual>
     
@@ -28051,6 +28218,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Little_Queen_Of_Spades">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Little Queen Of Spades</rdfs:label>
         <hasGenre rdf:resource="&music-10;Blues"/>
         <hasPerformer rdf:resource="&music-10;Robert_Johnson"/>
         <composer rdf:resource="&music-10;Robert_Johnson"/>
@@ -28062,6 +28230,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Little_Red_Rooster">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Little Red Rooster</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Howlin_Wolf"/>
         <hasPerformer rdf:resource="&music-10;Willie_Dixon"/>
         <composer rdf:resource="&music-10;Willie_Dixon"/>
@@ -28104,6 +28273,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Little_Wing">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Little Wing</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -28112,6 +28282,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Livery_Stable_Blues">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Livery Stable Blues</rdfs:label>
         <composer rdf:resource="&music-10;Original_Dixieland_Jazz_Band"/>
     </owl:NamedIndividual>
     
@@ -28121,6 +28292,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Living_After_Midnight">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Living After Midnight</rdfs:label>
         <composer rdf:resource="&music-10;Glenn_Tipton"/>
         <hasPerformer rdf:resource="&music-10;Judas_Priest"/>
         <composer rdf:resource="&music-10;K_K_Downing"/>
@@ -28170,6 +28342,8 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Lola">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Lola</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;The_Kinks"/>
     </owl:NamedIndividual>
     
 
@@ -28209,6 +28383,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Long_Hot_Summer_Night">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Long Hot Summer Night</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -28217,6 +28392,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Long_Live_The_King">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Long Live The King</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Byrds"/>
     </owl:NamedIndividual>
     
@@ -28260,6 +28436,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Looking_For_A_Love">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Looking For A Love</rdfs:label>
         <hasPerformer rdf:resource="&music-10;J_Geils_Band"/>
     </owl:NamedIndividual>
     
@@ -28324,6 +28501,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Lost_In_A_Lost_World">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Lost In A Lost World</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Moody_Blues"/>
     </owl:NamedIndividual>
     
@@ -28333,6 +28511,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Lost_Love">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Lost Love</rdfs:label>
         <composer rdf:resource="&music-10;Percy_Mayfield"/>
     </owl:NamedIndividual>
     
@@ -28342,6 +28521,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Lost_in_the_Flood">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Lost In The Flood</rdfs:label>
         <composer rdf:resource="&music-10;Bruce_Springsteen"/>
         <hasPerformer rdf:resource="&music-10;Bruce_Springsteen"/>
     </owl:NamedIndividual>
@@ -28722,6 +28902,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Lucille">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Lucille</rdfs:label>
         <composer rdf:resource="&music-10;Albert_Collins"/>
         <composer rdf:resource="&music-10;Little_Richard"/>
         <hasPerformer rdf:resource="&music-10;Little_Richard"/>
@@ -28822,6 +29003,16 @@
     <owl:NamedIndividual rdf:about="&music-10;Luigi_Dallapiccola">
         <rdf:type rdf:resource="&music-10;Composers"/>
         <rdfs:label>Luigi Dallapiccola</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Luis_Demetrio -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Luis_Demetrio">
+        <rdf:type rdf:resource="&music-10;Singer"/>
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Luis Demetrio</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -30266,6 +30457,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Messaih">
         <rdf:type rdf:resource="&music-10;Oratorio"/>
+        <rdfs:label>Messaih</rdfs:label>
         <composer rdf:resource="&music-10;George_Frideric_Handel"/>
     </owl:NamedIndividual>
     
@@ -30354,6 +30546,16 @@
         <rdfs:label>Michael Clarke</rdfs:label>
         <memberOfGroup rdf:resource="&music-10;Byrds"/>
         <memberOfGroup rdf:resource="&music-10;The_Flying_Burrito_Brothers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Michael_Derosier -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Michael_Derosier">
+        <rdf:type rdf:resource="&music-10;Drummer"/>
+        <rdfs:label>Michael Derosier</rdfs:label>
+        <memberOfGroup rdf:resource="&music-10;Heart"/>
     </owl:NamedIndividual>
     
 
@@ -30881,6 +31083,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Missa_Solemnis">
         <rdf:type rdf:resource="&music-10;Mass"/>
+        <rdfs:label>Missa Solemnis</rdfs:label>
         <composer rdf:resource="&music-10;Ludwig_Van_Beethoven"/>
     </owl:NamedIndividual>
     
@@ -31399,6 +31602,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Mozart_Requiem">
         <rdf:type rdf:resource="&music-10;Requiem_Mass"/>
+        <rdfs:label>Mozart Requiem</rdfs:label>
         <composer rdf:resource="&music-10;Wolfgang_Amadeus_Mozart"/>
     </owl:NamedIndividual>
     
@@ -32922,6 +33126,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Oleo">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Oleo</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -33548,6 +33753,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Pablo_Beltrán_Ruiz -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Pablo_Beltrán_Ruiz">
+        <rdf:type rdf:resource="&music-10;Band_Leader"/>
+        <rdf:type rdf:resource="&music-10;Composers"/>
+        <rdfs:label>Pablo Beltrán Ruiz</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Pablo_de_Sarasate -->
 
     <owl:NamedIndividual rdf:about="&music-10;Pablo_de_Sarasate">
@@ -33815,6 +34030,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Patterns">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Patterns</rdfs:label>
         <composer rdf:resource="&music-10;Paul_Simon"/>
         <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
     </owl:NamedIndividual>
@@ -36881,6 +37097,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Roger_Fisher -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Roger_Fisher">
+        <rdf:type rdf:resource="&music-10;Guitarist"/>
+        <rdfs:label>Roger Fisher</rdfs:label>
+        <memberOfGroup rdf:resource="&music-10;Heart"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Roger_Glover -->
 
     <owl:NamedIndividual rdf:about="&music-10;Roger_Glover">
@@ -38974,9 +39200,15 @@
         <hasRecordings rdf:resource="&music-10;Too_Many_Tears_Buddy_Guy"/>
     </owl:NamedIndividual>
     <owl:Axiom>
-        <index rdf:datatype="&xsd;integer">3</index>
-        <owl:annotatedTarget rdf:resource="&music-10;Lyin_Like_A_Dog_Buddy_Guy"/>
+        <index rdf:datatype="&xsd;int">5</index>
+        <owl:annotatedTarget rdf:resource="&music-10;Every_Time_I_Sing_The_Blues_-_Buddy_Guy"/>
         <owl:annotatedSource rdf:resource="&music-10;Skin_Deep"/>
+        <owl:annotatedProperty rdf:resource="&music-10;hasCompositions"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <index rdf:datatype="&xsd;integer">2</index>
+        <owl:annotatedSource rdf:resource="&music-10;Skin_Deep"/>
+        <owl:annotatedTarget rdf:resource="&music-10;Too_Many_Tears_Buddy_Guy"/>
         <owl:annotatedProperty rdf:resource="&music-10;hasRecordings"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -38986,21 +39218,15 @@
         <owl:annotatedProperty rdf:resource="&music-10;hasRecordings"/>
     </owl:Axiom>
     <owl:Axiom>
-        <index rdf:datatype="&xsd;int">5</index>
-        <owl:annotatedTarget rdf:resource="&music-10;Every_Time_I_Sing_The_Blues_-_Buddy_Guy"/>
-        <owl:annotatedSource rdf:resource="&music-10;Skin_Deep"/>
-        <owl:annotatedProperty rdf:resource="&music-10;hasCompositions"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <index rdf:datatype="&xsd;integer">4</index>
         <owl:annotatedTarget rdf:resource="&music-10;Show_Me_The_Money_Buddy_Guy"/>
         <owl:annotatedSource rdf:resource="&music-10;Skin_Deep"/>
         <owl:annotatedProperty rdf:resource="&music-10;hasRecordings"/>
     </owl:Axiom>
     <owl:Axiom>
-        <index rdf:datatype="&xsd;integer">2</index>
+        <index rdf:datatype="&xsd;integer">3</index>
+        <owl:annotatedTarget rdf:resource="&music-10;Lyin_Like_A_Dog_Buddy_Guy"/>
         <owl:annotatedSource rdf:resource="&music-10;Skin_Deep"/>
-        <owl:annotatedTarget rdf:resource="&music-10;Too_Many_Tears_Buddy_Guy"/>
         <owl:annotatedProperty rdf:resource="&music-10;hasRecordings"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -39197,6 +39423,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;So_In_Love">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>So In Love</rdfs:label>
         <composer rdf:resource="&music-10;Cole_Porter"/>
     </owl:NamedIndividual>
     
@@ -39225,6 +39452,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Softly_As_In_a_Morning_Sunrise">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Softly As In A Morning Sunrise</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -39262,6 +39490,10 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Solitude">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Solitude</rdfs:label>
+        <composer rdf:resource="&music-10;Duke_Ellington"/>
+        <lyricsBy rdf:resource="&music-10;Eddie_DeLange"/>
+        <lyricsBy rdf:resource="&music-10;Irving_Mills"/>
     </owl:NamedIndividual>
     
 
@@ -39296,6 +39528,8 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Some_Folks_Do">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Some Folks Do</rdfs:label>
+        <composer rdf:resource="&music-10;Steven_Foster"/>
     </owl:NamedIndividual>
     
 
@@ -39304,6 +39538,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Some_Folks_Lives_Roll_Easy">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Some Folks Lives Roll Easy</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -39324,6 +39559,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Somebody_Loves_Me">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Sombody Loves Me</rdfs:label>
         <composer rdf:resource="&music-10;George_Gershwin"/>
     </owl:NamedIndividual>
     
@@ -39561,6 +39797,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Sophisticated_Swing">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Sophisticated Swing</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Les_Brown_And_His_Band_Of_Renown"/>
     </owl:NamedIndividual>
     
@@ -39579,6 +39816,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Sorrow">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Sorrow</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Pink_Floyd"/>
     </owl:NamedIndividual>
     
@@ -39597,6 +39835,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Soul_Kitchen">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Soul Kitchen</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -39605,6 +39844,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Soul_Man">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Soul Man</rdfs:label>
         <composer rdf:resource="&music-10;David_Porter"/>
         <composer rdf:resource="&music-10;Isaac_Hayes"/>
         <hasPerformer rdf:resource="&music-10;Sam_and_Dave"/>
@@ -39617,6 +39857,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Soulshine">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Soulshine</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Allman_Brothers_Band"/>
         <composer rdf:resource="&music-10;Warren_Haynes"/>
     </owl:NamedIndividual>
@@ -39646,6 +39887,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;South_City_Midnight_Lady">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>South City Midnight Lady</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Doobie_Brothers"/>
     </owl:NamedIndividual>
     
@@ -39666,6 +39908,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Southland_Shuffle">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Southland Shuffle</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Charlie_Barnet"/>
     </owl:NamedIndividual>
     
@@ -39782,6 +40025,8 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Spoonful">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Spoonful</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Cream"/>
         <composer rdf:resource="&music-10;Willie_Dixon"/>
     </owl:NamedIndividual>
     
@@ -39960,6 +40205,9 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Stardust">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Stardust</rdfs:label>
+        <composer rdf:resource="&music-10;Hoagy_Carmichael"/>
+        <lyricsBy rdf:resource="&music-10;Mitchell_Parish"/>
     </owl:NamedIndividual>
     
 
@@ -40581,6 +40829,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Stupid_Cupid">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Stupid Cupid</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -40609,6 +40858,9 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Subterranean_Homesick_Blues">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Subterranean Homesick Blues</rdfs:label>
+        <composer rdf:resource="&music-10;Bob_Dylan"/>
+        <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
     </owl:NamedIndividual>
     
 
@@ -40626,6 +40878,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Sugar_Magnolia">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Sugar Magnolia</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Grateful_Dead"/>
     </owl:NamedIndividual>
     
@@ -40648,6 +40901,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Sultans_Of_Swing">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Sultans Of Swing</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -40683,6 +40937,9 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Summertime">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Summertime</rdfs:label>
+        <composer rdf:resource="&music-10;George_Gershwin"/>
+        <lyricsBy rdf:resource="&music-10;Ira_Gershwin"/>
     </owl:NamedIndividual>
     
 
@@ -40691,6 +40948,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Sunday">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Sunday</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Wild_Bill_Davidson"/>
     </owl:NamedIndividual>
     
@@ -40734,6 +40992,9 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Superstition">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Superstition</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Stevie_Wonder"/>
+        <composer rdf:resource="&music-10;Stevie_Wonder"/>
     </owl:NamedIndividual>
     
 
@@ -40841,6 +41102,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Suspicious_Minds">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Suspicious Minds</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -40849,6 +41111,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Suzanne">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Suzanne</rdfs:label>
         <composer rdf:resource="&music-10;Leonard_Cohen"/>
         <hasPerformer rdf:resource="&music-10;Roberta_Flack"/>
     </owl:NamedIndividual>
@@ -40889,6 +41152,10 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Sway">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Sway</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Dean_Martin"/>
+        <composer rdf:resource="&music-10;Luis_Demetrio"/>
+        <composer rdf:resource="&music-10;Pablo_Beltrán_Ruiz"/>
     </owl:NamedIndividual>
     
 
@@ -41345,6 +41612,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Taxman">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Taxman</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Beatles"/>
         <composer rdf:resource="&music-10;George_Harrison"/>
         <hasGenre rdf:resource="&music-10;Rock_and_Roll"/>
@@ -41397,6 +41665,10 @@
     <owl:NamedIndividual rdf:about="&music-10;Tears_of_a_Clown">
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>Tears Of A Clown</rdfs:label>
+        <composer rdf:resource="&music-10;Henry_Cosby"/>
+        <composer rdf:resource="&music-10;Smokey_Robinson"/>
+        <hasPerformer rdf:resource="&music-10;Smokey_Robinson_And_the_Miracles"/>
+        <composer rdf:resource="&music-10;Stevie_Wonder"/>
     </owl:NamedIndividual>
     
 
@@ -41698,6 +41970,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;That_Old_Black_Magic">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>That Old Black Magic</rdfs:label>
         <composer rdf:resource="&music-10;Harold_Arlen"/>
     </owl:NamedIndividual>
     
@@ -42557,7 +42830,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;The_Kinks">
         <rdf:type rdf:resource="&music-10;Band"/>
-        <rdfs:label>Kinks</rdfs:label>
+        <rdfs:label>The Kinks</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -43684,6 +43957,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Thriller">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Thriller</rdfs:label>
         <composer rdf:resource="&music-10;Michael_Jackson"/>
     </owl:NamedIndividual>
     
@@ -43712,6 +43986,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Ticket_To_Ride">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Ticket To Ride</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Beatles"/>
         <composer rdf:resource="&music-10;John_Lennon"/>
         <composer rdf:resource="&music-10;Paul_McCartney"/>
@@ -43734,6 +44009,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Tiffany_Queen">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Tiffany Queen</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Byrds"/>
     </owl:NamedIndividual>
     
@@ -44398,6 +44674,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Topsy">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Topsy</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -44703,6 +44980,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Tweedlee_Dee">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Tweedle Dee</rdfs:label>
         <hasPerformer rdf:resource="&music-10;LaVern_Baker"/>
         <composer rdf:resource="&music-10;Winfield_Scott"/>
     </owl:NamedIndividual>
@@ -44874,6 +45152,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Ukiah">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Ukaih</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Doobie_Brothers"/>
     </owl:NamedIndividual>
     
@@ -44998,6 +45277,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Unforgetable">
         <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Unforgettable</rdfs:label>
         <composer rdf:resource="&music-10;Irving_Gordon"/>
         <hasPerformer rdf:resource="&music-10;Nat_King_Cole"/>
         <hasPerformer rdf:resource="&music-10;Natalie_Cole"/>
@@ -45116,6 +45396,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Verdi_Requiem">
         <rdf:type rdf:resource="&music-10;Requiem_Mass"/>
+        <rdfs:label>Verdi Requiem</rdfs:label>
         <composer rdf:resource="&music-10;Giuseppe_Verdi"/>
     </owl:NamedIndividual>
     
