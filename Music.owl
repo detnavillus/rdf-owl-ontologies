@@ -2261,6 +2261,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Alex_Kapranos -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Alex_Kapranos">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Alex Kapranos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Alex_North -->
 
     <owl:NamedIndividual rdf:about="&music-10;Alex_North">
@@ -2406,6 +2415,17 @@
         <rdf:type rdf:resource="&music-10;Pianist"/>
         <rdfs:label>Alicia de Larrocha</rdfs:label>
         <hasGenre rdf:resource="&music-10;Classical"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Alison -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Alison">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Alison</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Elvis_Costello"/>
+        <composer rdf:resource="&music-10;Elvis_Costello"/>
     </owl:NamedIndividual>
     
 
@@ -2807,6 +2827,15 @@
         <rdf:type rdf:resource="&music-10;Songwriter"/>
         <rdfs:label>Allen Collins</rdfs:label>
         <memberOfGroup rdf:resource="&music-10;Lynyrd_Skynyrd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Allen_Shamblin -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Allen_Shamblin">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Allen Shamblin</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3925,6 +3954,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Are_You_Happy -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Are_You_Happy">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Are You Happy</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Doug_Ingle"/>
+        <hasPerformer rdf:resource="&music-10;Iron_Butterfly"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Are_You_Lonesome_Tonight -->
 
     <owl:NamedIndividual rdf:about="&music-10;Are_You_Lonesome_Tonight">
@@ -4163,6 +4203,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Arthur_Brooks -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Arthur_Brooks">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Arthur Brooks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Arthur_Crudup -->
 
     <owl:NamedIndividual rdf:about="&music-10;Arthur_Crudup">
@@ -4237,6 +4286,15 @@
         <rdf:type rdf:resource="&music-10;Bassist"/>
         <rdfs:label>Arthur Kane</rdfs:label>
         <memberOfGroup rdf:resource="&music-10;New_York_Dolls"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Arthur_Resnick -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Arthur_Resnick">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Arthur Resnick</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5467,6 +5525,7 @@
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>Beat It</rdfs:label>
         <composer rdf:resource="&music-10;Michael_Jackson"/>
+        <hasPerformer rdf:resource="&music-10;Michael_Jackson"/>
     </owl:NamedIndividual>
     
 
@@ -7415,6 +7474,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Blue_Letter -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Blue_Letter">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Blue Letter</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Fleetwood_Mac"/>
+        <composer rdf:resource="&music-10;Michael_Curtis"/>
+        <composer rdf:resource="&music-10;Richard_Curtis"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Blue_Lou -->
 
     <owl:NamedIndividual rdf:about="&music-10;Blue_Lou">
@@ -7483,6 +7554,17 @@
     <owl:NamedIndividual rdf:about="&music-10;Blue_Note">
         <rdf:type rdf:resource="&music-10;Recording_Companies"/>
         <rdfs:label>Blue Note</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Blue_Rondo_A_La_Turk -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Blue_Rondo_A_La_Turk">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Blue Rondo A La Turk</rdfs:label>
+        <composer rdf:resource="&music-10;Dave_Brubeck"/>
+        <hasPerformer rdf:resource="&music-10;The_Dave_Brubeck_Quartet"/>
     </owl:NamedIndividual>
     
 
@@ -7914,6 +7996,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Bobby_Byrd -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Bobby_Byrd">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Bobby Byrd</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Bobby_Darin -->
 
     <owl:NamedIndividual rdf:about="&music-10;Bobby_Darin">
@@ -8124,7 +8215,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Bonnie_Raitt">
         <rdf:type rdf:resource="&music-10;Singer"/>
-        <rdfs:label>Bobbie Raitt</rdfs:label>
+        <rdfs:label>Bonnie Raitt</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -8756,6 +8847,15 @@
     <owl:NamedIndividual rdf:about="&music-10;Bronisław_Kaper">
         <rdf:type rdf:resource="&music-10;Composers"/>
         <rdfs:label>Bronisław Kaper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Brooks_Bowman -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Brooks_Bowman">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Brooks Bowman</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -10346,6 +10446,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Charles_Stepney -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Charles_Stepney">
+        <rdf:type rdf:resource="&music-10;Arranger"/>
+        <rdf:type rdf:resource="&music-10;Conductor"/>
+        <rdf:type rdf:resource="&music-10;Keyboardist"/>
+        <rdf:type rdf:resource="&music-10;Producer"/>
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdf:type rdf:resource="&music-10;Vibraphonist"/>
+        <rdfs:label>Charles Stepney</rdfs:label>
+        <memberOfGroup rdf:resource="&music-10;Earth_Wind_and_Fire"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Charles_Toliver -->
 
     <owl:NamedIndividual rdf:about="&music-10;Charles_Toliver">
@@ -10970,6 +11085,18 @@
     <owl:NamedIndividual rdf:about="&music-10;Christine_Brewer">
         <rdf:type rdf:resource="&music-10;Soprano"/>
         <rdfs:label>Christine Brewer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Christine_McVie -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Christine_McVie">
+        <rdf:type rdf:resource="&music-10;Keyboardist"/>
+        <rdf:type rdf:resource="&music-10;Singer"/>
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Christine McVie</rdfs:label>
+        <memberOfGroup rdf:resource="&music-10;Fleetwood_Mac"/>
     </owl:NamedIndividual>
     
 
@@ -11716,7 +11843,9 @@
     <owl:NamedIndividual rdf:about="&music-10;Comfortably_Numb">
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>Comfortably Numb</rdfs:label>
+        <composer rdf:resource="&music-10;David_Gilmour"/>
         <hasPerformer rdf:resource="&music-10;Pink_Floyd"/>
+        <composer rdf:resource="&music-10;Roger_Waters"/>
     </owl:NamedIndividual>
     
 
@@ -11736,6 +11865,15 @@
     <owl:NamedIndividual rdf:about="&music-10;Commander_Cody_and_His_Lost_Planet_Airmen">
         <rdf:type rdf:resource="&music-10;Band"/>
         <rdfs:label>Commander Cody &amp; His Lost Planet Airmen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Commodores -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Commodores">
+        <rdf:type rdf:resource="&music-10;Band"/>
+        <rdfs:label>Commodores</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -11928,6 +12066,17 @@
         <rdf:type rdf:resource="&music-10;Mass"/>
         <rdfs:label>Coronation Mass</rdfs:label>
         <composer rdf:resource="&music-10;Wolfgang_Amadeus_Mozart"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Cortez_the_Killer -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Cortez_the_Killer">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Cortez the Killer</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Neil_Young"/>
+        <composer rdf:resource="&music-10;Neil_Young"/>
     </owl:NamedIndividual>
     
 
@@ -12350,6 +12499,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Crystal -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Crystal">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Crystal</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Fleetwood_Mac"/>
+        <composer rdf:resource="&music-10;Stevie_Nicks"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Crystal_Gayle -->
 
     <owl:NamedIndividual rdf:about="&music-10;Crystal_Gayle">
@@ -12570,6 +12730,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Dance_Tonight -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Dance_Tonight">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Dance Tonight</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Dance_to_the_Music -->
 
     <owl:NamedIndividual rdf:about="&music-10;Dance_to_the_Music">
@@ -12577,6 +12748,18 @@
         <rdfs:label>Dance to the Music</rdfs:label>
         <composer rdf:resource="&music-10;Sly_Stone"/>
         <hasPerformer rdf:resource="&music-10;Sly_and_the_Family_Stone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Dancing_Barefoot -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Dancing_Barefoot">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Dancing Barefoot</rdfs:label>
+        <composer rdf:resource="&music-10;Ivan_Kral"/>
+        <composer rdf:resource="&music-10;Patti_Smith"/>
+        <hasPerformer rdf:resource="&music-10;Patti_Smith_Group"/>
     </owl:NamedIndividual>
     
 
@@ -13616,6 +13799,15 @@
     <owl:NamedIndividual rdf:about="&music-10;Demi_Lovato">
         <rdf:type rdf:resource="&music-10;Singer"/>
         <rdfs:label>Demi Lovato</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Dennis_Dunway -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Dennis_Dunway">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Dennis Dunway</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -14971,6 +15163,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Doug_Ingle -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Doug_Ingle">
+        <rdf:type rdf:resource="&music-10;Singer"/>
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Doug Ingle</rdfs:label>
+        <memberOfGroup rdf:resource="&music-10;Iron_Butterfly"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Down_Along_The_Cove -->
 
     <owl:NamedIndividual rdf:about="&music-10;Down_Along_The_Cove">
@@ -15474,6 +15677,18 @@
     <owl:NamedIndividual rdf:about="&music-10;Earth_Boy">
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>Earth Boy</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Elvis_Presley"/>
+        <composer rdf:resource="&music-10;Roy_Bennett"/>
+        <composer rdf:resource="&music-10;Sid_Tepper"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Earth_Wind_and_Fire -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Earth_Wind_and_Fire">
+        <rdf:type rdf:resource="&music-10;Band"/>
+        <rdfs:label>Earth, Wind and Fire</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -15491,7 +15706,8 @@
 
     <owl:NamedIndividual rdf:about="&music-10;East_Of_The_Sun_West_Of_The_Moon">
         <rdf:type rdf:resource="&music-10;Song"/>
-        <rdfs:label>East Of The Sun West Of The Moon</rdfs:label>
+        <rdfs:label>East Of The Sun (and West Of The Moon)</rdfs:label>
+        <composer rdf:resource="&music-10;Brooks_Bowman"/>
     </owl:NamedIndividual>
     
 
@@ -15510,6 +15726,8 @@
     <owl:NamedIndividual rdf:about="&music-10;Easy">
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>Easy</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Commodores"/>
+        <composer rdf:resource="&music-10;Lionel_Richie"/>
     </owl:NamedIndividual>
     
 
@@ -16616,6 +16834,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Erik_Brann -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Erik_Brann">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Erik Brann</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Erik_Chisholm -->
 
     <owl:NamedIndividual rdf:about="&music-10;Erik_Chisholm">
@@ -16801,6 +17028,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Ever_Present_Past -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Ever_Present_Past">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Ever Present Past</rdfs:label>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Everly_Brothers -->
 
     <owl:NamedIndividual rdf:about="&music-10;Everly_Brothers">
@@ -16862,6 +17100,17 @@
         <composer rdf:resource="&music-10;Jim_Capaldi"/>
         <composer rdf:resource="&music-10;Steve_Winwood"/>
         <hasPerformer rdf:resource="&music-10;Traffic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Every_Night -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Every_Night">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Every Night</rdfs:label>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
     </owl:NamedIndividual>
     
 
@@ -16988,6 +17237,17 @@
         <hasPerformer rdf:resource="&music-10;Beatles"/>
         <composer rdf:resource="&music-10;John_Lennon"/>
         <hasGenre rdf:resource="&music-10;Rock_and_Roll"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Everybodys_Jumpin -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Everybodys_Jumpin">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Everybody&apos;s Jumpin&apos;</rdfs:label>
+        <composer rdf:resource="&music-10;Dave_Brubeck"/>
+        <hasPerformer rdf:resource="&music-10;The_Dave_Brubeck_Quartet"/>
     </owl:NamedIndividual>
     
 
@@ -17386,6 +17646,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Feet_in_the_Clouds -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Feet_in_the_Clouds">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Feet in the Clouds</rdfs:label>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Felice_Bryant -->
 
     <owl:NamedIndividual rdf:about="&music-10;Felice_Bryant">
@@ -17491,6 +17762,20 @@
         <synonym>50 Ways To Leave Your Lover</synonym>
         <composer rdf:resource="&music-10;Paul_Simon"/>
         <hasPerformer rdf:resource="&music-10;Paul_Simon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Fight_the_Power -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Fight_the_Power">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Fight the Power</rdfs:label>
+        <composer rdf:resource="&music-10;Carlton_Ridenhour"/>
+        <composer rdf:resource="&music-10;Eric_Sadler"/>
+        <composer rdf:resource="&music-10;Hank_Shocklee"/>
+        <composer rdf:resource="&music-10;Keith_Shocklee"/>
+        <hasPerformer rdf:resource="&music-10;Public_Enemy"/>
     </owl:NamedIndividual>
     
 
@@ -17656,6 +17941,17 @@
     <owl:NamedIndividual rdf:about="&music-10;Florence_Quivar">
         <rdf:type rdf:resource="&music-10;Mezzo-Soprano"/>
         <rdfs:label>Florence Quivar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Flowers_And_Beads -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Flowers_And_Beads">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Flowers And Beads</rdfs:label>
+        <composer rdf:resource="&music-10;Doug_Ingle"/>
+        <hasPerformer rdf:resource="&music-10;Iron_Butterfly"/>
     </owl:NamedIndividual>
     
 
@@ -17924,7 +18220,9 @@
     <owl:NamedIndividual rdf:about="&music-10;For_Your_Precious_Love">
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>For Your Precious Love</rdfs:label>
+        <composer rdf:resource="&music-10;Arthur_Brooks"/>
         <composer rdf:resource="&music-10;Jerry_Butler"/>
+        <hasPerformer rdf:resource="&music-10;The_Impressions"/>
     </owl:NamedIndividual>
     
 
@@ -18246,6 +18544,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Franz_Ferdinand -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Franz_Ferdinand">
+        <rdf:type rdf:resource="&music-10;Singer"/>
+        <rdfs:label>Franz Ferdinand</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Franz_Liszt -->
 
     <owl:NamedIndividual rdf:about="&music-10;Franz_Liszt">
@@ -18358,6 +18665,15 @@
     <owl:NamedIndividual rdf:about="&music-10;Fred_Waring">
         <rdf:type rdf:resource="&music-10;Band_Leader"/>
         <rdfs:label>Fred Waring</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Fred_Wise -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Fred_Wise">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Fred Wise</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -19494,6 +19810,19 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Get_Up_I_Feel_Like_Being_a_Sex_Machine -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Get_Up_I_Feel_Like_Being_a_Sex_Machine">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Get Up (I Feel Like Being a) Sex Machine</rdfs:label>
+        <composer rdf:resource="&music-10;Bobby_Byrd"/>
+        <composer rdf:resource="&music-10;James_Brown"/>
+        <hasPerformer rdf:resource="&music-10;James_Brown"/>
+        <composer rdf:resource="&music-10;Ron_Lenhoff"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Gettin_In_Tune -->
 
     <owl:NamedIndividual rdf:about="&music-10;Gettin_In_Tune">
@@ -19895,6 +20224,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Glen_Buxton -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Glen_Buxton">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Glen Buxton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Glen_Gray -->
 
     <owl:NamedIndividual rdf:about="&music-10;Glen_Gray">
@@ -20236,6 +20574,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Good_Lovin -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Good_Lovin">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Good Lovin&apos;</rdfs:label>
+        <composer rdf:resource="&music-10;Arthur_Resnick"/>
+        <composer rdf:resource="&music-10;Rudy_Clark"/>
+        <hasPerformer rdf:resource="&music-10;The_Rascals"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Good_Morning_Good_Morning -->
 
     <owl:NamedIndividual rdf:about="&music-10;Good_Morning_Good_Morning">
@@ -20483,6 +20833,17 @@
     <owl:NamedIndividual rdf:about="&music-10;Grateful_Dead">
         <rdf:type rdf:resource="&music-10;Band"/>
         <rdfs:label>Grateful Dead</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Gratitude -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Gratitude">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Gratitude</rdfs:label>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
     </owl:NamedIndividual>
     
 
@@ -21516,6 +21877,20 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Heartbreaker -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Heartbreaker">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Heartbreaker</rdfs:label>
+        <composer rdf:resource="&music-10;Jimmy_Page"/>
+        <composer rdf:resource="&music-10;John_Bonham"/>
+        <composer rdf:resource="&music-10;John_Paul_Jones"/>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+        <composer rdf:resource="&music-10;Robert_Plant"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Heat_Wave -->
 
     <owl:NamedIndividual rdf:about="&music-10;Heat_Wave">
@@ -21855,6 +22230,15 @@
     <owl:NamedIndividual rdf:about="&music-10;Herb_Alpert_and_The_Tijuana_Brass">
         <rdf:type rdf:resource="&music-10;Band"/>
         <rdfs:label>Herb Alpert &amp; The Tijuana Brass</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Herb_Slotkin -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Herb_Slotkin">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Herb Slotkin</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -22401,6 +22785,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Hot_As_Sun -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Hot_As_Sun">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Hot As Sun Glasses</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Hot_Fun_In_The_Summertime -->
 
     <owl:NamedIndividual rdf:about="&music-10;Hot_Fun_In_The_Summertime">
@@ -22522,6 +22917,17 @@
         <rdfs:label>The House Of The Rising Sun</rdfs:label>
         <composer rdf:resource="&music-10;Alan_Price"/>
         <hasPerformer rdf:resource="&music-10;Animals"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#House_Of_Wax -->
+
+    <owl:NamedIndividual rdf:about="&music-10;House_Of_Wax">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>House Of Wax</rdfs:label>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
     </owl:NamedIndividual>
     
 
@@ -22889,6 +23295,18 @@
     <owl:NamedIndividual rdf:about="&music-10;I_Cant_Give_You_Anything_but_Love">
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>I Can&apos;t Give You Anything but Love</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#I_Cant_Make_You_Love_Me -->
+
+    <owl:NamedIndividual rdf:about="&music-10;I_Cant_Make_You_Love_Me">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>I Can&apos;t Make You Love Me</rdfs:label>
+        <composer rdf:resource="&music-10;Allen_Shamblin"/>
+        <hasPerformer rdf:resource="&music-10;Bonnie_Raitt"/>
+        <composer rdf:resource="&music-10;Mike_Reid"/>
     </owl:NamedIndividual>
     
 
@@ -23371,6 +23789,9 @@
     <owl:NamedIndividual rdf:about="&music-10;I_Put_A_Spell_On_You">
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>I Put A Spell On You</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Buddy_Guy"/>
+        <hasPerformer rdf:resource="&music-10;Credence_Clearwater_Revival"/>
+        <composer rdf:resource="&music-10;Herb_Slotkin"/>
         <composer rdf:resource="&music-10;Jay_Hawkins"/>
         <hasGenre rdf:resource="&music-10;Rock_and_Roll"/>
     </owl:NamedIndividual>
@@ -24172,6 +24593,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Im_So_Afraid -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Im_So_Afraid">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>I&apos;m So Afraid</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Fleetwood_Mac"/>
+        <composer rdf:resource="&music-10;Lindsey_Buckingham"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Im_So_Tired -->
 
     <owl:NamedIndividual rdf:about="&music-10;Im_So_Tired">
@@ -24256,6 +24688,29 @@
     <owl:NamedIndividual rdf:about="&music-10;Imperial_Records">
         <rdf:type rdf:resource="&music-10;Recording_Companies"/>
         <rdfs:label>Imperial Records</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#In-A-Gadda-Da-Vida -->
+
+    <owl:NamedIndividual rdf:about="&music-10;In-A-Gadda-Da-Vida">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>In-A-Gadda-Da-Vida</rdfs:label>
+        <composer rdf:resource="&music-10;Doug_Ingle"/>
+        <hasPerformer rdf:resource="&music-10;Iron_Butterfly"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#In_Dreams -->
+
+    <owl:NamedIndividual rdf:about="&music-10;In_Dreams">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>In Dreams</rdfs:label>
+        <composer rdf:resource="&music-10;Joe_Melson"/>
+        <hasPerformer rdf:resource="&music-10;Roy_Orbison"/>
+        <composer rdf:resource="&music-10;Roy_Orbison"/>
     </owl:NamedIndividual>
     
 
@@ -24485,6 +24940,25 @@
     <owl:NamedIndividual rdf:about="&music-10;Irma_Thomas">
         <rdf:type rdf:resource="&music-10;Singer"/>
         <rdfs:label>Irma Thomas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Iron_Butterfly -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Iron_Butterfly">
+        <rdf:type rdf:resource="&music-10;Band"/>
+        <rdfs:label>Iron Butterfly</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Iron_Man -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Iron_Man">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Iron Man</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Black_Sabbath"/>
     </owl:NamedIndividual>
     
 
@@ -24876,6 +25350,15 @@
         <hasGenre rdf:resource="&music-10;Classical"/>
         <hasGenre rdf:resource="&music-10;Jazz"/>
         <playsInstrument rdf:resource="&music-10;Violin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Ivan_Kral -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Ivan_Kral">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Ivan Kral</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -27409,6 +27892,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#John_McVie -->
+
+    <owl:NamedIndividual rdf:about="&music-10;John_McVie">
+        <rdf:type rdf:resource="&music-10;Bassist"/>
+        <rdfs:label>John McVie</rdfs:label>
+        <memberOfGroup rdf:resource="&music-10;Fleetwood_Mac"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#John_Mellencamp -->
 
     <owl:NamedIndividual rdf:about="&music-10;John_Mellencamp">
@@ -28582,6 +29075,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Junk -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Junk">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Junk</rdfs:label>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Jussi_Björling -->
 
     <owl:NamedIndividual rdf:about="&music-10;Jussi_Björling">
@@ -28968,6 +29472,19 @@
     <owl:NamedIndividual rdf:about="&music-10;Kathys_Song">
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>Kathy&apos;s Song</rdfs:label>
+        <composer rdf:resource="&music-10;Paul_Simon"/>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Kathys_Waltz -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Kathys_Waltz">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Kathy&apos;s Waltz</rdfs:label>
+        <composer rdf:resource="&music-10;Dave_Brubeck"/>
+        <hasPerformer rdf:resource="&music-10;The_Dave_Brubeck_Quartet"/>
     </owl:NamedIndividual>
     
 
@@ -29132,6 +29649,15 @@
         <rdfs:label>Keith Richards</rdfs:label>
         <hasGenre rdf:resource="&music-10;Rock_and_Roll"/>
         <memberOfGroup rdf:resource="&music-10;Rolling_Stones"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Keith_Shocklee -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Keith_Shocklee">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Keith Shocklee</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -29548,6 +30074,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Kismet -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Kismet">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Kismet</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Elvis_Presley"/>
+        <composer rdf:resource="&music-10;Roy_Bennett"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Kiss -->
 
     <owl:NamedIndividual rdf:about="&music-10;Kiss">
@@ -29585,6 +30122,18 @@
         <hasPerformer rdf:resource="&music-10;Frankie_Vaughan"/>
         <hasPerformer rdf:resource="&music-10;Jimmie_Rodgers"/>
         <composer rdf:resource="&music-10;The_Weavers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Kissin_Cousins -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Kissin_Cousins">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Kissin&apos; Cousins</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Elvis_Presley"/>
+        <composer rdf:resource="&music-10;Fred_Wise"/>
+        <composer rdf:resource="&music-10;Randy_Starr"/>
     </owl:NamedIndividual>
     
 
@@ -29663,6 +30212,17 @@
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>Krazy Kat</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Frankie_Trumbauer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Kreen_-_Akrore -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Kreen_-_Akrore">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Kreen - Akrore</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
     </owl:NamedIndividual>
     
 
@@ -29991,6 +30551,17 @@
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>Lana</rdfs:label>
         <composer rdf:resource="&music-10;Roy_Orbison"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Landslide -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Landslide">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Landslide</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Fleetwood_Mac"/>
+        <composer rdf:resource="&music-10;Stevie_Nicks"/>
     </owl:NamedIndividual>
     
 
@@ -30329,6 +30900,15 @@
         <rdf:type rdf:resource="&music-10;Recordings"/>
         <rdfs:label>Led Zeppelin IV</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Lee_Dorman -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Lee_Dorman">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Lee Dorman</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -31156,6 +31736,17 @@
         <rdf:type rdf:resource="&music-10;Vibraphonist"/>
         <rdfs:label>Lionel Hampton</rdfs:label>
         <memberOfGroup rdf:resource="&music-10;Benny_Goodman_Quartet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Lionel_Richie -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Lionel_Richie">
+        <rdf:type rdf:resource="&music-10;Producer"/>
+        <rdf:type rdf:resource="&music-10;Singer"/>
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Lionel Richie</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -32710,6 +33301,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Man_We_Was_Lonely -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Man_We_Was_Lonely">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Man We Was Lonely</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Manfred_Mann -->
 
     <owl:NamedIndividual rdf:about="&music-10;Manfred_Mann">
@@ -32797,6 +33399,17 @@
         <rdfs:label>Many A Mile To Freedom</rdfs:label>
         <composer rdf:resource="&music-10;Jim_Capaldi"/>
         <composer rdf:resource="&music-10;Steve_Winwood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Many_Rivers_to_Cross -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Many_Rivers_to_Cross">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Many Rivers to Cross</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Jimmy_Cliff"/>
+        <composer rdf:resource="&music-10;Jimmy_Cliff"/>
     </owl:NamedIndividual>
     
 
@@ -33394,6 +34007,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Maurice_White -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Maurice_White">
+        <rdf:type rdf:resource="&music-10;Producer"/>
+        <rdf:type rdf:resource="&music-10;Singer"/>
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Maurice White</rdfs:label>
+        <memberOfGroup rdf:resource="&music-10;Earth_Wind_and_Fire"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Maurizio_Pollini -->
 
     <owl:NamedIndividual rdf:about="&music-10;Maurizio_Pollini">
@@ -33954,6 +34579,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Michael_Curtis -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Michael_Curtis">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Michael Curtis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Michael_Derosier -->
 
     <owl:NamedIndividual rdf:about="&music-10;Michael_Derosier">
@@ -34293,11 +34927,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Mike_Reid -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Mike_Reid">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Mike Reid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Mike_Stoller -->
 
     <owl:NamedIndividual rdf:about="&music-10;Mike_Stoller">
         <rdf:type rdf:resource="&music-10;Lyricist"/>
         <rdfs:label>Mike Stoller</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Mike_Stone -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Mike_Stone">
+        <rdf:type rdf:resource="&music-10;Producer"/>
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Mike Stone</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -34616,6 +35269,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Momma_Miss_America -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Momma_Miss_America">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Momma Miss America</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Mona_Lisa -->
 
     <owl:NamedIndividual rdf:about="&music-10;Mona_Lisa">
@@ -34636,6 +35300,17 @@
         <lyricsBy rdf:resource="&music-10;Bernie_Maupin"/>
         <hasPerformer rdf:resource="&music-10;Elton_John"/>
         <composer rdf:resource="&music-10;Elton_John"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Monday_Morning -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Monday_Morning">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Monday Morning</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Fleetwood_Mac"/>
+        <composer rdf:resource="&music-10;Lindsey_Buckingham"/>
     </owl:NamedIndividual>
     
 
@@ -34974,6 +35649,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Most_Anything_You_Want -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Most_Anything_You_Want">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Most Anything You Want</rdfs:label>
+        <composer rdf:resource="&music-10;Doug_Ingle"/>
+        <hasPerformer rdf:resource="&music-10;Iron_Butterfly"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Most_Likely_You_Go_Your_Way_And_Ill_Go_Mine -->
 
     <owl:NamedIndividual rdf:about="&music-10;Most_Likely_You_Go_Your_Way_And_Ill_Go_Mine">
@@ -35110,6 +35796,17 @@
     <owl:NamedIndividual rdf:about="&music-10;Mozart_Symphony_Number_41">
         <rdf:type rdf:resource="&music-10;Symphonic"/>
         <composer rdf:resource="&music-10;Wolfgang_Amadeus_Mozart"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Mr_Bellamy -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Mr_Bellamy">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Mr Bellamy</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
     </owl:NamedIndividual>
     
 
@@ -35464,6 +36161,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#My_Mirage -->
+
+    <owl:NamedIndividual rdf:about="&music-10;My_Mirage">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>My Mirage</rdfs:label>
+        <composer rdf:resource="&music-10;Doug_Ingle"/>
+        <hasPerformer rdf:resource="&music-10;Iron_Butterfly"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#My_One_And_Only_Love -->
 
     <owl:NamedIndividual rdf:about="&music-10;My_One_And_Only_Love">
@@ -35682,6 +36390,15 @@
     <owl:NamedIndividual rdf:about="&music-10;Naxos">
         <rdf:type rdf:resource="&music-10;Recording_Companies"/>
         <synonym>Naxos</synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Neal_Smith -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Neal_Smith">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Neal Smith</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -35984,6 +36701,15 @@
         <rdf:type rdf:resource="&music-10;Songwriter"/>
         <rdfs:label>Nick Mason</rdfs:label>
         <memberOfGroup rdf:resource="&music-10;Pink_Floyd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Nick_McCarthy -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Nick_McCarthy">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Nick McCarthy</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -36379,6 +37105,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Nod_Your_Head -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Nod_Your_Head">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Nod Your Head</rdfs:label>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Noel_Redding -->
 
     <owl:NamedIndividual rdf:about="&music-10;Noel_Redding">
@@ -36411,6 +37148,17 @@
     <owl:NamedIndividual rdf:about="&music-10;Norman_Gimbel">
         <rdf:type rdf:resource="&music-10;Lyricist"/>
         <rdfs:label>Norman Gimbel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Norman_Greenbaum -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Norman_Greenbaum">
+        <rdf:type rdf:resource="&music-10;Guitarist"/>
+        <rdf:type rdf:resource="&music-10;Singer"/>
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Norman Greenbaum</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -37065,6 +37813,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Only_Mama_Knows -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Only_Mama_Knows">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Only Mama Knows</rdfs:label>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Only_The_Good_Die_Young -->
 
     <owl:NamedIndividual rdf:about="&music-10;Only_The_Good_Die_Young">
@@ -37116,6 +37875,17 @@
     <owl:NamedIndividual rdf:about="&music-10;Onward_Christian_Soldiers">
         <rdf:type rdf:resource="&music-10;Hymn"/>
         <rdfs:label>Onward Christian Soldiers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Oo_You -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Oo_You">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Oo You</rdfs:label>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
     </owl:NamedIndividual>
     
 
@@ -37441,6 +38211,17 @@
     <owl:NamedIndividual rdf:about="&music-10;Outlaws">
         <rdf:type rdf:resource="&music-10;Band"/>
         <rdfs:label>Outlaws</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Over_My_Head -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Over_My_Head">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Over My Head</rdfs:label>
+        <composer rdf:resource="&music-10;Christine_McVie"/>
+        <hasPerformer rdf:resource="&music-10;Fleetwood_Mac"/>
     </owl:NamedIndividual>
     
 
@@ -37936,7 +38717,18 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Patti_Smith">
         <rdf:type rdf:resource="&music-10;Singer"/>
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
         <rdfs:label>Patti Smith</rdfs:label>
+        <memberOfGroup rdf:resource="&music-10;Patti_Smith_Group"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Patti_Smith_Group -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Patti_Smith_Group">
+        <rdf:type rdf:resource="&music-10;Band"/>
+        <rdfs:label>Patti Smith Group</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -38905,6 +39697,17 @@
         <rdfs:label>Piano Man</rdfs:label>
         <composer rdf:resource="&music-10;Billy_Joel"/>
         <hasPerformer rdf:resource="&music-10;Billy_Joel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Pick_Up_Sticks -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Pick_Up_Sticks">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Pick Up Sticks</rdfs:label>
+        <composer rdf:resource="&music-10;Dave_Brubeck"/>
+        <hasPerformer rdf:resource="&music-10;The_Dave_Brubeck_Quartet"/>
     </owl:NamedIndividual>
     
 
@@ -39958,6 +40761,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Randy_Starr -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Randy_Starr">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Randy Starr</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Randy_Travis -->
 
     <owl:NamedIndividual rdf:about="&music-10;Randy_Travis">
@@ -40548,6 +41360,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Rhiannon -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Rhiannon">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Rhiannon</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Fleetwood_Mac"/>
+        <composer rdf:resource="&music-10;Stevie_Nicks"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Rhonda_Smith -->
 
     <owl:NamedIndividual rdf:about="&music-10;Rhonda_Smith">
@@ -40660,6 +41483,15 @@
         <rdfs:label>Richard Cory</rdfs:label>
         <composer rdf:resource="&music-10;Paul_Simon"/>
         <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Richard_Curtis -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Richard_Curtis">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Richard Curtis</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -41749,6 +42581,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Ron_Lenhoff -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Ron_Lenhoff">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Ron Lenhoff</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Ron_Pigpen_McKernan -->
 
     <owl:NamedIndividual rdf:about="&music-10;Ron_Pigpen_McKernan">
@@ -41951,6 +42792,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Roy_Bennett -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Roy_Bennett">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Roy Bennett</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Roy_Edward_Burris -->
 
     <owl:NamedIndividual rdf:about="&music-10;Roy_Edward_Burris">
@@ -42086,6 +42936,15 @@
         <rdfs:label>Ruddigore</rdfs:label>
         <composer rdf:resource="&music-10;Arthur_Sullivan"/>
         <lyricsBy rdf:resource="&music-10;William_S_Gilbert"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Rudy_Clark -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Rudy_Clark">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Rudy Clark</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -42729,11 +43588,37 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Say_You_Love_Me -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Say_You_Love_Me">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Say You Love Me</rdfs:label>
+        <composer rdf:resource="&music-10;Christine_McVie"/>
+        <hasPerformer rdf:resource="&music-10;Fleetwood_Mac"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Scepter_Records -->
 
     <owl:NamedIndividual rdf:about="&music-10;Scepter_Records">
         <rdf:type rdf:resource="&music-10;Recording_Companies"/>
         <rdfs:label>Scepter Records</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Schools_Out -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Schools_Out">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>School&apos;s Out</rdfs:label>
+        <composer rdf:resource="&music-10;Alice_Cooper"/>
+        <hasPerformer rdf:resource="&music-10;Alice_Cooper"/>
+        <composer rdf:resource="&music-10;Dennis_Dunway"/>
+        <composer rdf:resource="&music-10;Glen_Buxton"/>
+        <composer rdf:resource="&music-10;Michael_Owen_Bruce"/>
+        <composer rdf:resource="&music-10;Neal_Smith"/>
     </owl:NamedIndividual>
     
 
@@ -43080,6 +43965,17 @@
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>See Emily Play</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Pink_Floyd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#See_Your_Sunshine -->
+
+    <owl:NamedIndividual rdf:about="&music-10;See_Your_Sunshine">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>See Your Sunshine</rdfs:label>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
     </owl:NamedIndividual>
     
 
@@ -43727,6 +44623,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Sid_Tepper -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Sid_Tepper">
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Sid Tepper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Sid_Vicious -->
 
     <owl:NamedIndividual rdf:about="&music-10;Sid_Vicious">
@@ -43919,6 +44824,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Singalong_Junk -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Singalong_Junk">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Singalong Junk</rdfs:label>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Singing_Winds_Crying_Beasts -->
 
     <owl:NamedIndividual rdf:about="&music-10;Singing_Winds_Crying_Beasts">
@@ -43990,9 +44906,15 @@
         <hasRecordings rdf:resource="&music-10;Too_Many_Tears_Buddy_Guy"/>
     </owl:NamedIndividual>
     <owl:Axiom>
-        <index rdf:datatype="&xsd;integer">6</index>
-        <owl:annotatedTarget rdf:resource="&music-10;Out_In_The_Woods_Buddy_Guy"/>
+        <index rdf:datatype="&xsd;integer">3</index>
+        <owl:annotatedTarget rdf:resource="&music-10;Lyin_Like_A_Dog_Buddy_Guy"/>
         <owl:annotatedSource rdf:resource="&music-10;Skin_Deep"/>
+        <owl:annotatedProperty rdf:resource="&music-10;hasRecordings"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <index rdf:datatype="&xsd;integer">2</index>
+        <owl:annotatedSource rdf:resource="&music-10;Skin_Deep"/>
+        <owl:annotatedTarget rdf:resource="&music-10;Too_Many_Tears_Buddy_Guy"/>
         <owl:annotatedProperty rdf:resource="&music-10;hasRecordings"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -44008,15 +44930,9 @@
         <owl:annotatedProperty rdf:resource="&music-10;hasRecordings"/>
     </owl:Axiom>
     <owl:Axiom>
-        <index rdf:datatype="&xsd;integer">3</index>
-        <owl:annotatedTarget rdf:resource="&music-10;Lyin_Like_A_Dog_Buddy_Guy"/>
+        <index rdf:datatype="&xsd;integer">6</index>
+        <owl:annotatedTarget rdf:resource="&music-10;Out_In_The_Woods_Buddy_Guy"/>
         <owl:annotatedSource rdf:resource="&music-10;Skin_Deep"/>
-        <owl:annotatedProperty rdf:resource="&music-10;hasRecordings"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <index rdf:datatype="&xsd;integer">2</index>
-        <owl:annotatedSource rdf:resource="&music-10;Skin_Deep"/>
-        <owl:annotatedTarget rdf:resource="&music-10;Too_Many_Tears_Buddy_Guy"/>
         <owl:annotatedProperty rdf:resource="&music-10;hasRecordings"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -44879,6 +45795,17 @@
         <hasPerformer rdf:resource="&music-10;Bruce_Springsteen"/>
         <composer rdf:resource="&music-10;Bruce_Springsteen"/>
         <hasPerformer rdf:resource="&music-10;Manfred_Manns_Earth_Band"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Spirit_in_the_Sky -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Spirit_in_the_Sky">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Spirit in the Sky</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Norman_Greenbaum"/>
+        <composer rdf:resource="&music-10;Norman_Greenbaum"/>
     </owl:NamedIndividual>
     
 
@@ -45759,6 +46686,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Strange_Meadow_Lark -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Strange_Meadow_Lark">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Strange Meadow Lark</rdfs:label>
+        <composer rdf:resource="&music-10;Dave_Brubeck"/>
+        <hasPerformer rdf:resource="&music-10;The_Dave_Brubeck_Quartet"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Strange_Things_Happening -->
 
     <owl:NamedIndividual rdf:about="&music-10;Strange_Things_Happening">
@@ -45895,6 +46833,17 @@
         <rdfs:label>Suffragette City</rdfs:label>
         <hasPerformer rdf:resource="&music-10;David_Bowie"/>
         <composer rdf:resource="&music-10;David_Bowie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Sugar_Daddy -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Sugar_Daddy">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Sugar Daddy</rdfs:label>
+        <composer rdf:resource="&music-10;Christine_McVie"/>
+        <hasPerformer rdf:resource="&music-10;Fleetwood_Mac"/>
     </owl:NamedIndividual>
     
 
@@ -46531,6 +47480,7 @@
     <owl:NamedIndividual rdf:about="&music-10;Take_Five">
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>Take Five</rdfs:label>
+        <composer rdf:resource="&music-10;Dave_Brubeck"/>
         <hasPerformer rdf:resource="&music-10;The_Dave_Brubeck_Quartet"/>
     </owl:NamedIndividual>
     
@@ -46564,6 +47514,18 @@
         <hasPerformer rdf:resource="&music-10;Eagles"/>
         <composer rdf:resource="&music-10;Glenn_Frey"/>
         <composer rdf:resource="&music-10;Randy_Meisner"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Take_Me_Out -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Take_Me_Out">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Take Me Out</rdfs:label>
+        <composer rdf:resource="&music-10;Alex_Kapranos"/>
+        <hasPerformer rdf:resource="&music-10;Franz_Ferdinand"/>
+        <composer rdf:resource="&music-10;Nick_McCarthy"/>
     </owl:NamedIndividual>
     
 
@@ -46888,6 +47850,7 @@
     <owl:NamedIndividual rdf:about="&music-10;Teddy_Boy">
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>Teddy Boy</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
         <composer rdf:resource="&music-10;Paul_McCartney"/>
     </owl:NamedIndividual>
     
@@ -47024,6 +47987,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Termination -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Termination">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Termination</rdfs:label>
+        <composer rdf:resource="&music-10;Erik_Brann"/>
+        <hasPerformer rdf:resource="&music-10;Iron_Butterfly"/>
+        <composer rdf:resource="&music-10;Lee_Dorman"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Terraplane_Blues -->
 
     <owl:NamedIndividual rdf:about="&music-10;Terraplane_Blues">
@@ -47138,6 +48113,28 @@
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>That Old Black Magic</rdfs:label>
         <composer rdf:resource="&music-10;Harold_Arlen"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#That_Was_Me -->
+
+    <owl:NamedIndividual rdf:about="&music-10;That_Was_Me">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>That Was Me</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#That_Would_Be_Something -->
+
+    <owl:NamedIndividual rdf:about="&music-10;That_Would_Be_Something">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>That Would Be Something</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
     </owl:NamedIndividual>
     
 
@@ -47740,6 +48737,21 @@
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>The End</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Doors"/>
+        <composer rdf:resource="&music-10;Jim_Morrison"/>
+        <composer rdf:resource="&music-10;John_Densmore"/>
+        <composer rdf:resource="&music-10;Ray_Manzarek"/>
+        <composer rdf:resource="&music-10;Robby_Krieger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_End_of_The_End -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_End_of_The_End">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>The End of The End</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
     </owl:NamedIndividual>
     
 
@@ -48177,6 +49189,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Lovely_Linda -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Lovely_Linda">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>The Lovely Linda</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Lovin_Spoonful -->
 
     <owl:NamedIndividual rdf:about="&music-10;The_Lovin_Spoonful">
@@ -48477,7 +49500,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;The_Rascals">
         <rdf:type rdf:resource="&music-10;Band"/>
-        <rdfs:label>The Rascals</rdfs:label>
+        <rdfs:label>The Young Rascals</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -49388,6 +50411,17 @@
         <hasPerformer rdf:resource="&music-10;Carmen_McRae"/>
         <composer rdf:resource="&music-10;Harry_Ruby"/>
         <hasPerformer rdf:resource="&music-10;Helen_Kane"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Three_To_Get_Ready -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Three_To_Get_Ready">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Three To Get Ready</rdfs:label>
+        <composer rdf:resource="&music-10;Dave_Brubeck"/>
+        <hasPerformer rdf:resource="&music-10;The_Dave_Brubeck_Quartet"/>
     </owl:NamedIndividual>
     
 
@@ -50941,6 +51975,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Valentine_Day -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Valentine_Day">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Valentine Day</rdfs:label>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Valerie_Simpson -->
 
     <owl:NamedIndividual rdf:about="&music-10;Valerie_Simpson">
@@ -51029,6 +52074,18 @@
         <rdf:type rdf:resource="&music-10;Requiem_Mass"/>
         <rdfs:label>Verdi Requiem</rdfs:label>
         <composer rdf:resource="&music-10;Giuseppe_Verdi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Verdine_White -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Verdine_White">
+        <rdf:type rdf:resource="&music-10;Bassist"/>
+        <rdf:type rdf:resource="&music-10;Singer"/>
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Verdine White</rdfs:label>
+        <memberOfGroup rdf:resource="&music-10;Earth_Wind_and_Fire"/>
     </owl:NamedIndividual>
     
 
@@ -51258,6 +52315,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Vintage_CLothes -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Vintage_CLothes">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Vintage Clothes</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Viola -->
 
     <owl:NamedIndividual rdf:about="&music-10;Viola">
@@ -51451,6 +52519,18 @@
     <owl:NamedIndividual rdf:about="&music-10;Wait_Until_Tomorrow">
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>Wait Until Tomorrow</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Wake_Up_Little_Susie -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Wake_Up_Little_Susie">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Wake Up Little Susie</rdfs:label>
+        <composer rdf:resource="&music-10;Diadorius_Boudleaux_Bryant"/>
+        <hasPerformer rdf:resource="&music-10;Everly_Brothers"/>
+        <composer rdf:resource="&music-10;Felice_Bryant"/>
     </owl:NamedIndividual>
     
 
@@ -51716,6 +52796,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Warm_Ways -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Warm_Ways">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Warm Ways</rdfs:label>
+        <composer rdf:resource="&music-10;Christine_McVie"/>
+        <hasPerformer rdf:resource="&music-10;Fleetwood_Mac"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Warren_Haynes -->
 
     <owl:NamedIndividual rdf:about="&music-10;Warren_Haynes">
@@ -51782,6 +52873,19 @@
         <rdfs:label>Way Down Yonder In New Orleans</rdfs:label>
         <lyricsBy rdf:resource="&music-10;Henry_Creamer"/>
         <composer rdf:resource="&music-10;Turner_Layton"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Way_of_the_World -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Way_of_the_World">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>Way of the World</rdfs:label>
+        <composer rdf:resource="&music-10;Charles_Stepney"/>
+        <hasPerformer rdf:resource="&music-10;Earth_Wind_and_Fire"/>
+        <composer rdf:resource="&music-10;Maurice_White"/>
+        <composer rdf:resource="&music-10;Verdine_White"/>
     </owl:NamedIndividual>
     
 
@@ -51869,6 +52973,18 @@
         <hasPerformer rdf:resource="&music-10;Animals"/>
         <composer rdf:resource="&music-10;Barry_Mann"/>
         <composer rdf:resource="&music-10;Cynthia_Weil"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#We_Will_Rock_You -->
+
+    <owl:NamedIndividual rdf:about="&music-10;We_Will_Rock_You">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>We Will Rock You</rdfs:label>
+        <composer rdf:resource="&music-10;Brian_May"/>
+        <composer rdf:resource="&music-10;Mike_Stone"/>
+        <hasPerformer rdf:resource="&music-10;Queen"/>
     </owl:NamedIndividual>
     
 
@@ -53117,6 +54233,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#World_Turning -->
+
+    <owl:NamedIndividual rdf:about="&music-10;World_Turning">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>World Turning</rdfs:label>
+        <composer rdf:resource="&music-10;Christine_McVie"/>
+        <hasPerformer rdf:resource="&music-10;Fleetwood_Mac"/>
+        <composer rdf:resource="&music-10;Lindsey_Buckingham"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Wouldnt_It_Be_Loverly -->
 
     <owl:NamedIndividual rdf:about="&music-10;Wouldnt_It_Be_Loverly">
@@ -53651,6 +54779,17 @@
         <hasPerformer rdf:resource="&music-10;Beach_Boys"/>
         <composer rdf:resource="&music-10;Brian_Wilson"/>
         <lyricsBy rdf:resource="&music-10;Tony_Asher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#You_Tell_Me -->
+
+    <owl:NamedIndividual rdf:about="&music-10;You_Tell_Me">
+        <rdf:type rdf:resource="&music-10;Song"/>
+        <rdfs:label>You Tell Me</rdfs:label>
+        <composer rdf:resource="&music-10;Paul_McCartney"/>
+        <hasPerformer rdf:resource="&music-10;Paul_McCartney"/>
     </owl:NamedIndividual>
     
 
