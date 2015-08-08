@@ -531,6 +531,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Interview_Album -->
+
+    <owl:Class rdf:about="&music-10;Interview_Album">
+        <rdfs:label>Interview Album</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&music-10;Album"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Jazz -->
 
     <owl:Class rdf:about="&music-10;Jazz">
@@ -1084,7 +1093,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#A_Bigger_Bang -->
 
     <owl:NamedIndividual rdf:about="&music-10;A_Bigger_Bang">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>A Bigger Bang</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -1140,6 +1149,16 @@
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>A Child Is Born</rdfs:label>
         <composer rdf:resource="&music-10;Rihanna"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#A_Collection_of_Beatles_Oldies -->
+
+    <owl:NamedIndividual rdf:about="&music-10;A_Collection_of_Beatles_Oldies">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>A Collection of Beatles Oldies</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
 
@@ -1265,6 +1284,16 @@
         <hasPerformer rdf:resource="&music-10;Beatles"/>
         <composer rdf:resource="&music-10;John_Lennon"/>
         <composer rdf:resource="&music-10;Paul_McCartney"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#A_Hard_Days_Night__-_Album -->
+
+    <owl:NamedIndividual rdf:about="&music-10;A_Hard_Days_Night__-_Album">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>A Hard Day&apos;s Night</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
 
@@ -1533,6 +1562,16 @@
         <rdfs:label>A Town Called Jubilee</rdfs:label>
         <lyricsBy rdf:resource="&music-10;Bernie_Taupin"/>
         <composer rdf:resource="&music-10;Elton_John"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#A_Tribute_to_Johnny_Kidd_and_the_Pirates -->
+
+    <owl:NamedIndividual rdf:about="&music-10;A_Tribute_to_Johnny_Kidd_and_the_Pirates">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>A Tribute to Johnny Kidd and the Pirates</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
 
@@ -2220,6 +2259,17 @@
     <owl:NamedIndividual rdf:about="&music-10;Aint_She_Sweet">
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>Ain&apos;t She Sweet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Aint_She_Sweet_-_Album -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Aint_She_Sweet_-_Album">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Ain&apos;t She Sweet</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+        <hasPerformer rdf:resource="&music-10;Tony_Sheridan"/>
     </owl:NamedIndividual>
     
 
@@ -3721,6 +3771,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#America_The_Simon_and_Garfunkel_Collection -->
+
+    <owl:NamedIndividual rdf:about="&music-10;America_The_Simon_and_Garfunkel_Collection">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>America: The Simon &amp; Garfunkel Collection</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#American_Beauty -->
 
     <owl:NamedIndividual rdf:about="&music-10;American_Beauty">
@@ -4509,6 +4569,46 @@
         <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Another Side of Bob Dylan</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Anthology_1 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Anthology_1">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Anthology 1</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Anthology_2 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Anthology_2">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Anthology 2</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Anthology_3 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Anthology_3">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Anthology 3</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Anthology_Highlights -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Anthology_Highlights">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Anthology Highlights</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
 
@@ -5415,6 +5515,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#At_Fillmore_East -->
+
+    <owl:NamedIndividual rdf:about="&music-10;At_Fillmore_East">
+        <rdf:type rdf:resource="&music-10;Live_Album"/>
+        <rdfs:label>At Fillmore East</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Allman_Brothers_Band"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#At_Last -->
 
     <owl:NamedIndividual rdf:about="&music-10;At_Last">
@@ -5671,6 +5781,16 @@
         <rdf:type rdf:resource="&music-10;Live_Album"/>
         <rdfs:label>BBC Archives 1967-1969</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Pink_Floyd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#BBC_Sessions -->
+
+    <owl:NamedIndividual rdf:about="&music-10;BBC_Sessions">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>BBC Sessions</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
 
@@ -6660,7 +6780,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;Beatles_1">
         <rdf:type rdf:resource="&music-10;Compilation_Album"/>
-        <rdfs:label>Beatles 1</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;integer">1</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
@@ -6671,6 +6791,37 @@
     <owl:NamedIndividual rdf:about="&music-10;Beatles_65">
         <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Beatles 65</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Beatles_Bop__Hamburg_Days -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Beatles_Bop__Hamburg_Days">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Beatles Bop – Hamburg Days</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+        <hasPerformer rdf:resource="&music-10;Tony_Sheridan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Beatles_VI -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Beatles_VI">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>Beatles VI</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Beatles_for_Sale -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Beatles_for_Sale">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>Beatles for Sale</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
@@ -7086,6 +7237,16 @@
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>Begin The Beguine</rdfs:label>
         <composer rdf:resource="&music-10;Cole_Porter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Beginnings -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Beginnings">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Beginnings</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Allman_Brothers_Band"/>
     </owl:NamedIndividual>
     
 
@@ -7758,7 +7919,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Between_the_Buttons -->
 
     <owl:NamedIndividual rdf:about="&music-10;Between_the_Buttons">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Between the Buttons</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -8421,7 +8582,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Biograph -->
 
     <owl:NamedIndividual rdf:about="&music-10;Biograph">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Biograph</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
     </owl:NamedIndividual>
@@ -9806,6 +9967,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Bookends -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Bookends">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>Bookends</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Booker_T._Jones -->
 
     <owl:NamedIndividual rdf:about="&music-10;Booker_T._Jones">
@@ -10326,10 +10497,20 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Bridge_Over_Troubled_Water_-_Album -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Bridge_Over_Troubled_Water_-_Album">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>Bridge Over Troubled Water</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Bridges_to_Babylon -->
 
     <owl:NamedIndividual rdf:about="&music-10;Bridges_to_Babylon">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Bridges to Babylon</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -10480,7 +10661,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Bringing_It_All_Back_Home -->
 
     <owl:NamedIndividual rdf:about="&music-10;Bringing_It_All_Back_Home">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Bringing It All Back Home</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
     </owl:NamedIndividual>
@@ -10692,6 +10873,16 @@
         <rdf:type rdf:resource="&music-10;Live_Album"/>
         <rdfs:label>Brussels Affair (Live 1973)</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Brutal_Artistry -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Brutal_Artistry">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Brutal Artistry</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
 
@@ -11040,6 +11231,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Burn_Like_a_Candle -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Burn_Like_a_Candle">
+        <rdf:type rdf:resource="&music-10;Bootleg_Album"/>
+        <rdfs:label>Burn Like a Candle</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Burnin_And_Lootin -->
 
     <owl:NamedIndividual rdf:about="&music-10;Burnin_And_Lootin">
@@ -11277,6 +11478,16 @@
         <rdf:type rdf:resource="&music-10;Singer"/>
         <rdfs:label>Cab Colloway</rdfs:label>
         <hasGenre rdf:resource="&music-10;Jazz"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Cabala -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Cabala">
+        <rdf:type rdf:resource="&music-10;Bootleg_Album"/>
+        <rdfs:label>Cabala</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
 
@@ -12164,6 +12375,16 @@
         <rdfs:label>Cedar Walton</rdfs:label>
         <hasGenre rdf:resource="&music-10;Hard_Bop"/>
         <hasGenre rdf:resource="&music-10;Jazz"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Celebration_Day -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Celebration_Day">
+        <rdf:type rdf:resource="&music-10;Soundtrack_Album"/>
+        <rdfs:label>Celebration Day</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
 
@@ -13442,6 +13663,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Classic_Ballads -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Classic_Ballads">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Classic Ballads</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Classical -->
 
     <owl:NamedIndividual rdf:about="&music-10;Classical">
@@ -13790,6 +14021,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Coda -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Coda">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>Coda</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Colburn_Conservatory_of_Music -->
 
     <owl:NamedIndividual rdf:about="&music-10;Colburn_Conservatory_of_Music">
@@ -13845,6 +14086,16 @@
         <rdf:type rdf:resource="&music-10;Composers"/>
         <rdfs:label>Colin Greenwood</rdfs:label>
         <memberOfGroup rdf:resource="&music-10;Radiohead"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Collected_Works -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Collected_Works">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Collected Works</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
     </owl:NamedIndividual>
     
 
@@ -16533,7 +16784,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Desire -->
 
     <owl:NamedIndividual rdf:about="&music-10;Desire">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Desire</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
     </owl:NamedIndividual>
@@ -16559,6 +16810,16 @@
         <composer rdf:resource="&music-10;Guy_Clark"/>
         <hasPerformer rdf:resource="&music-10;Jerry_Jeff_Walker"/>
         <hasPerformer rdf:resource="&music-10;Rita_Coolidge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Destroyer -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Destroyer">
+        <rdf:type rdf:resource="&music-10;Bootleg_Album"/>
+        <rdfs:label>Destroyer</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
 
@@ -16968,7 +17229,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Dirty_Work -->
 
     <owl:NamedIndividual rdf:about="&music-10;Dirty_Work">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Dirty Work</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -18012,7 +18273,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Down_in_the_Groove -->
 
     <owl:NamedIndividual rdf:about="&music-10;Down_in_the_Groove">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Down in the Groove</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
     </owl:NamedIndividual>
@@ -18233,6 +18494,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Duane_and_Greg_Allman -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Duane_and_Greg_Allman">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>Duane &amp; Greg Allman</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Allman_Brothers_Band"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Duets -->
 
     <owl:NamedIndividual rdf:about="&music-10;Duets">
@@ -18363,7 +18634,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Dylan_and_the_Dead -->
 
     <owl:NamedIndividual rdf:about="&music-10;Dylan_and_the_Dead">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Live_Album"/>
         <rdfs:label>Dylan &amp; the Dead</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
         <hasPerformer rdf:resource="&music-10;Grateful_Dead"/>
@@ -18502,6 +18773,16 @@
         <rdf:type rdf:resource="&music-10;Guitarist"/>
         <rdfs:label>Earl Slick</rdfs:label>
         <memberOfGroup rdf:resource="&music-10;New_York_Dolls"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Early_Days_and_Latter_Days_The_Best_of_Led_Zeppelin_Volumes_One_and_Two -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Early_Days_and_Latter_Days_The_Best_of_Led_Zeppelin_Volumes_One_and_Two">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Early Days &amp; Latter Days: The Best of Led Zeppelin, Volumes One and Two</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
 
@@ -19608,7 +19889,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Empire_Burlesque -->
 
     <owl:NamedIndividual rdf:about="&music-10;Empire_Burlesque">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Empire Burlesque</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
     </owl:NamedIndividual>
@@ -19712,7 +19993,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Englands_Newest_Hit_Makers -->
 
     <owl:NamedIndividual rdf:about="&music-10;Englands_Newest_Hit_Makers">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>England’s Newest Hit Makers</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -21108,6 +21389,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#First_Live_Recordings -->
+
+    <owl:NamedIndividual rdf:about="&music-10;First_Live_Recordings">
+        <rdf:type rdf:resource="&music-10;Live_Album"/>
+        <rdfs:label>First Live Recordings</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Fitzwilliam_Quartet -->
 
     <owl:NamedIndividual rdf:about="&music-10;Fitzwilliam_Quartet">
@@ -21152,7 +21443,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Flashpoint -->
 
     <owl:NamedIndividual rdf:about="&music-10;Flashpoint">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Flashpoint</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -21227,7 +21518,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Flowers -->
 
     <owl:NamedIndividual rdf:about="&music-10;Flowers">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
         <rdfs:label>Flowers</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -21416,6 +21707,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#For_Badgeholders_Only -->
+
+    <owl:NamedIndividual rdf:about="&music-10;For_Badgeholders_Only">
+        <rdf:type rdf:resource="&music-10;Bootleg_Album"/>
+        <rdfs:label>For Badgeholders Only</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#For_Better_Or_Worse -->
 
     <owl:NamedIndividual rdf:about="&music-10;For_Better_Or_Worse">
@@ -21559,7 +21860,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Forty_Licks -->
 
     <owl:NamedIndividual rdf:about="&music-10;Forty_Licks">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Forty Licks</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -21724,6 +22025,15 @@
         <rdf:type rdf:resource="&music-10;Songwriter"/>
         <rdfs:label>Frank Foster</rdfs:label>
         <hasGenre rdf:resource="&music-10;Jazz"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Frank_Ifield -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Frank_Ifield">
+        <rdf:type rdf:resource="&music-10;Singer"/>
+        <rdfs:label>Frank Ifield</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -22406,6 +22716,16 @@
     <owl:NamedIndividual rdf:about="&music-10;From_The_Beginning">
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>From The Beginning</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#From_Then_To_You__The_Beatles_Christmas_Album -->
+
+    <owl:NamedIndividual rdf:about="&music-10;From_Then_To_You__The_Beatles_Christmas_Album">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>From Then To You / The Beatles&apos; Christmas Album</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
 
@@ -24116,6 +24436,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Golden_Ballads -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Golden_Ballads">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Golden Ballads</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Golden_Slumbers -->
 
     <owl:NamedIndividual rdf:about="&music-10;Golden_Slumbers">
@@ -24165,6 +24495,16 @@
         <composer rdf:resource="&music-10;Doc_Pomus"/>
         <hasPerformer rdf:resource="&music-10;Elvis_Presley"/>
         <composer rdf:resource="&music-10;Mort_Shuman"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Gonzaga_68 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Gonzaga_68">
+        <rdf:type rdf:resource="&music-10;Live_Album"/>
+        <rdfs:label>Gonzaga &apos;68</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
 
@@ -24339,7 +24679,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Good_as_I_Been_to_You -->
 
     <owl:NamedIndividual rdf:about="&music-10;Good_as_I_Been_to_You">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Good as I Been to You</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
     </owl:NamedIndividual>
@@ -24514,6 +24854,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Grand_Collection -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Grand_Collection">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Grand Collection</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Grand_Funk_Railroad -->
 
     <owl:NamedIndividual rdf:about="&music-10;Grand_Funk_Railroad">
@@ -24572,6 +24922,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Greatest_Hits_-_Simon_and_Garfunkel -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Greatest_Hits_-_Simon_and_Garfunkel">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Greatest Hits</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Greatest_Hits_1970_2002 -->
 
     <owl:NamedIndividual rdf:about="&music-10;Greatest_Hits_1970_2002">
@@ -24588,6 +24948,26 @@
         <rdf:type rdf:resource="&music-10;Compilation_Album"/>
         <rdfs:label>Greatest Hits 1976–1986</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Elton_John"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Greatest_Hits_Volume_1_-_Beatles -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Greatest_Hits_Volume_1_-_Beatles">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Greatest Hits Volume 1</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Greatest_Hits_Volume_2_-_Beatles -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Greatest_Hits_Volume_2_-_Beatles">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Greatest Hits Volume 2</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
 
@@ -26617,6 +26997,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Hey_Jude_-_Album -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Hey_Jude_-_Album">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Hey Jude</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Hey_Jude_-_Beatles -->
 
     <owl:NamedIndividual rdf:about="&music-10;Hey_Jude_-_Beatles">
@@ -27550,6 +27940,16 @@
         <lyricsBy rdf:resource="&music-10;Joe_Young"/>
         <lyricsBy rdf:resource="&music-10;Sam_M_Lewis"/>
         <composer rdf:resource="&music-10;Walter_Donaldson"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#How_the_West_Was_Won -->
+
+    <owl:NamedIndividual rdf:about="&music-10;How_the_West_Was_Won">
+        <rdf:type rdf:resource="&music-10;Live_Album"/>
+        <rdfs:label>How the West Was Won</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
 
@@ -28681,6 +29081,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#I_Saw_Her_Standing_There_-_Album -->
+
+    <owl:NamedIndividual rdf:about="&music-10;I_Saw_Her_Standing_There_-_Album">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>I Saw Her Standing There</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#I_See_Your_Face_Before_Me -->
 
     <owl:NamedIndividual rdf:about="&music-10;I_See_Your_Face_Before_Me">
@@ -29132,6 +29542,16 @@
     <owl:NamedIndividual rdf:about="&music-10;Ida_Cox">
         <rdf:type rdf:resource="&music-10;Singer"/>
         <rdfs:label>Ida Cox</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Idlewild_South -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Idlewild_South">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>Idlewild South</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Allman_Brothers_Band"/>
     </owl:NamedIndividual>
     
 
@@ -30020,6 +30440,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#In_Through_the_Out_Door -->
+
+    <owl:NamedIndividual rdf:about="&music-10;In_Through_the_Out_Door">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>In Through the Out Door</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#In_a_Mellotone -->
 
     <owl:NamedIndividual rdf:about="&music-10;In_a_Mellotone">
@@ -30038,6 +30468,16 @@
         <hasPerformer rdf:resource="&music-10;Duke_Ellington"/>
         <composer rdf:resource="&music-10;Duke_Ellington"/>
         <hasPerformer rdf:resource="&music-10;John_Coltrane"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#In_the_Beginning_Circa_1960 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;In_the_Beginning_Circa_1960">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>In the Beginning (Circa 1960)</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
 
@@ -30091,7 +30531,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Infidels -->
 
     <owl:NamedIndividual rdf:about="&music-10;Infidels">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Infidels</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
     </owl:NamedIndividual>
@@ -30679,7 +31119,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Its_Only_Rock_n_Roll -->
 
     <owl:NamedIndividual rdf:about="&music-10;Its_Only_Rock_n_Roll">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>It&apos;s Only Rock &apos;n Roll</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -34165,6 +34605,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Jolly_What -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Jolly_What">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Jolly What!</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+        <hasPerformer rdf:resource="&music-10;Frank_Ifield"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Jon_Anderson -->
 
     <owl:NamedIndividual rdf:about="&music-10;Jon_Anderson">
@@ -36909,6 +37360,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Latter_Days_Best_of_Led_Zeppelin_Volume_Two -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Latter_Days_Best_of_Led_Zeppelin_Volume_Two">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Latter Days: Best of Led Zeppelin Volume Two</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Laughter_in_the_Rain -->
 
     <owl:NamedIndividual rdf:about="&music-10;Laughter_in_the_Rain">
@@ -37123,6 +37584,36 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Led_Zeppelin_-_Album -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Led_Zeppelin_-_Album">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>Led Zeppelin</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Led_Zeppelin_Boxed_Set -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Led_Zeppelin_Boxed_Set">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Led Zeppelin Boxed Set</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Led_Zeppelin_Boxed_Set_2 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Led_Zeppelin_Boxed_Set_2">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Led Zeppelin Boxed Set 2</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Led_Zeppelin_II -->
 
     <owl:NamedIndividual rdf:about="&music-10;Led_Zeppelin_II">
@@ -37148,6 +37639,16 @@
     <owl:NamedIndividual rdf:about="&music-10;Led_Zeppelin_IV">
         <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Led Zeppelin IV</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Led_Zeppelin_Remasters -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Led_Zeppelin_Remasters">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Led Zeppelin Remasters</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
@@ -38138,6 +38639,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Let_It_Be_Naked -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Let_It_Be_Naked">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Let It Be... Naked</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Let_It_Bleed -->
 
     <owl:NamedIndividual rdf:about="&music-10;Let_It_Bleed">
@@ -38636,6 +39147,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Listen_to_This_Eddie -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Listen_to_This_Eddie">
+        <rdf:type rdf:resource="&music-10;Bootleg_Album"/>
+        <rdfs:label>Listen to This Eddie</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Litaliana_in_Algeri -->
 
     <owl:NamedIndividual rdf:about="&music-10;Litaliana_in_Algeri">
@@ -38831,6 +39352,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Live_1969 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Live_1969">
+        <rdf:type rdf:resource="&music-10;Live_Album"/>
+        <rdfs:label>Live 1969</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Live_At_Pompeii -->
 
     <owl:NamedIndividual rdf:about="&music-10;Live_At_Pompeii">
@@ -38841,12 +39372,32 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Live_From_New_York_City_1967 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Live_From_New_York_City_1967">
+        <rdf:type rdf:resource="&music-10;Live_Album"/>
+        <rdfs:label>Live From New York City, 1967</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Live_at_Leeds_Roundhay_Park_1982 -->
 
     <owl:NamedIndividual rdf:about="&music-10;Live_at_Leeds_Roundhay_Park_1982">
         <rdf:type rdf:resource="&music-10;Live_Album"/>
         <rdfs:label>Live at Leeds Roundhay Park 1982</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Live_at_the_BBC -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Live_at_the_BBC">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Live at the BBC</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
 
@@ -38862,6 +39413,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Live_at_the_Star_Club_in_Hamburg_Germany_1962 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Live_at_the_Star_Club_in_Hamburg_Germany_1962">
+        <rdf:type rdf:resource="&music-10;Live_Album"/>
+        <rdfs:label>Live! at the Star-Club in Hamburg, Germany; 1962</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Live_in_Australia -->
 
     <owl:NamedIndividual rdf:about="&music-10;Live_in_Australia">
@@ -38869,6 +39430,16 @@
         <rdfs:label>Live in Australia</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Elton_John"/>
         <hasPerformer rdf:resource="&music-10;Melbourne_Symphony_Orchestra"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Live_on_Blueberry_Hill -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Live_on_Blueberry_Hill">
+        <rdf:type rdf:resource="&music-10;Bootleg_Album"/>
+        <rdfs:label>Live on Blueberry Hill</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
 
@@ -39190,6 +39761,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Los_Beatles -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Los_Beatles">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Los Beatles</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Los_Lobos -->
 
     <owl:NamedIndividual rdf:about="&music-10;Los_Lobos">
@@ -39385,6 +39966,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Love_-_Album -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Love_-_Album">
+        <rdf:type rdf:resource="&music-10;Soundtrack_Album"/>
+        <rdfs:label>Love</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Love_Aint_For_Keeping -->
 
     <owl:NamedIndividual rdf:about="&music-10;Love_Aint_For_Keeping">
@@ -39575,6 +40166,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Love_Songs_-_Beatles -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Love_Songs_-_Beatles">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Love Songs</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Love_Walked_In -->
 
     <owl:NamedIndividual rdf:about="&music-10;Love_Walked_In">
@@ -39670,7 +40271,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Love_and_Theft -->
 
     <owl:NamedIndividual rdf:about="&music-10;Love_and_Theft">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Love and Theft</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
     </owl:NamedIndividual>
@@ -42034,7 +42635,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Metamorphosis -->
 
     <owl:NamedIndividual rdf:about="&music-10;Metamorphosis">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Metamorphosis</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -43305,6 +43906,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#More_Great_Songs -->
+
+    <owl:NamedIndividual rdf:about="&music-10;More_Great_Songs">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>More Great Songs</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#More_Hot_Rocks_Big_Hits_and_Fazed_Cookies -->
 
     <owl:NamedIndividual rdf:about="&music-10;More_Hot_Rocks_Big_Hits_and_Fazed_Cookies">
@@ -43821,6 +44432,17 @@
     <owl:NamedIndividual rdf:about="&music-10;My_Blue_Heaven">
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>My Blue Heaven</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#My_Bonnie -->
+
+    <owl:NamedIndividual rdf:about="&music-10;My_Bonnie">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>My Bonnie</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+        <hasPerformer rdf:resource="&music-10;Tony_Sheridan"/>
     </owl:NamedIndividual>
     
 
@@ -44415,7 +45037,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#New_Morning -->
 
     <owl:NamedIndividual rdf:about="&music-10;New_Morning">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>New Morning</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
     </owl:NamedIndividual>
@@ -44932,6 +45554,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Nineteen-sixty-seven_to_Nineteen-seventy -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Nineteen-sixty-seven_to_Nineteen-seventy">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>1967–1970</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Nineteen-sixty-two_to_Nineteen-sixty-six -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Nineteen-sixty-two_to_Nineteen-sixty-six">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>1962–1966</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Nineteen_Years_Old -->
 
     <owl:NamedIndividual rdf:about="&music-10;Nineteen_Years_Old">
@@ -45034,7 +45676,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#No_Security -->
 
     <owl:NamedIndividual rdf:about="&music-10;No_Security">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>No Security</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -45492,7 +46134,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Oh_Mercy -->
 
     <owl:NamedIndividual rdf:about="&music-10;Oh_Mercy">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Oh Mercy</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
     </owl:NamedIndividual>
@@ -45615,6 +46257,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Old_Friends -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Old_Friends">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Old Friends</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Old_Man -->
 
     <owl:NamedIndividual rdf:about="&music-10;Old_Man">
@@ -45692,6 +46344,26 @@
     <owl:NamedIndividual rdf:about="&music-10;Olly_Murs">
         <rdf:type rdf:resource="&music-10;Singer"/>
         <rdfs:label>Olly Murs</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Olympic_Gold -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Olympic_Gold">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Olympic Gold</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#On_Air__Live_at_the_BBC_Volume_2 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;On_Air__Live_at_the_BBC_Volume_2">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>On Air – Live at the BBC Volume 2</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
 
@@ -46368,7 +47040,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Out_of_Our_Heads -->
 
     <owl:NamedIndividual rdf:about="&music-10;Out_of_Our_Heads">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Out of Our Heads</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -46841,6 +47513,36 @@
         <rdfs:label>Passion Flower</rdfs:label>
         <hasPerformer rdf:resource="&music-10;The_Diamonds"/>
         <hasPerformer rdf:resource="&music-10;The_Fraternity_Brothers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Past_Masters -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Past_Masters">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Past Masters</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Past_Masters_Volume_One -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Past_Masters_Volume_One">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Past Masters, Volume One</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Past_Masters_Volume_Two -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Past_Masters_Volume_Two">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Past Masters, Volume Two</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
 
@@ -47681,6 +48383,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Pete_Best -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Pete_Best">
+        <rdf:type rdf:resource="&music-10;Drummer"/>
+        <rdfs:label>Pete Best</rdfs:label>
+        <memberOfGroup rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Pete_Brown -->
 
     <owl:NamedIndividual rdf:about="&music-10;Pete_Brown">
@@ -48111,6 +48823,16 @@
         <hasPerformer rdf:resource="&music-10;Robert_Johnson"/>
         <composer rdf:resource="&music-10;Robert_Johnson"/>
         <hasGenre rdf:resource="&music-10;Terraplane_Blues"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Physical_Graffiti -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Physical_Graffiti">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>Physical Graffiti</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
 
@@ -48657,6 +49379,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Por_Siempre_Beatles -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Por_Siempre_Beatles">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Por Siempre Beatles</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Porgy_and_Bess -->
 
     <owl:NamedIndividual rdf:about="&music-10;Porgy_and_Bess">
@@ -48734,6 +49466,16 @@
         <rdfs:label>Prelude to Joanie</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Aerosmith"/>
         <composer rdf:resource="&music-10;Steven_Tyler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Presence -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Presence">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>Presence</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
 
@@ -48881,6 +49623,16 @@
         <rdf:type rdf:resource="&music-10;Rapper"/>
         <rdfs:label>Professor Griff</rdfs:label>
         <memberOfGroup rdf:resource="&music-10;Public_Enemy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Profiled -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Profiled">
+        <rdf:type rdf:resource="&music-10;Interview_Album"/>
+        <rdfs:label>Profiled</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
 
@@ -49516,6 +50268,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Rarities -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Rarities">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Rarities</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Rattled -->
 
     <owl:NamedIndividual rdf:about="&music-10;Rattled">
@@ -49873,6 +50635,16 @@
         <rdfs:label>Redemption Song</rdfs:label>
         <composer rdf:resource="&music-10;Bob_Marley"/>
         <hasPerformer rdf:resource="&music-10;Bob_Marley_and_the_Wailers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Reel_Music -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Reel_Music">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Reel Music</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
 
@@ -51177,6 +51949,26 @@
     <owl:NamedIndividual rdf:about="&music-10;Rock_and_Roll">
         <rdf:type rdf:resource="&music-10;Rock"/>
         <rdfs:label>Rock and Roll</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Rock_n_Roll_Music -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Rock_n_Roll_Music">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Rock &apos;n&apos; Roll Music</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Rock_n_Roll_Music_Volume_Two -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Rock_n_Roll_Music_Volume_Two">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Rock &apos;n&apos; Roll Music, Volume Two</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
 
@@ -52562,7 +53354,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Saved -->
 
     <owl:NamedIndividual rdf:about="&music-10;Saved">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Saved</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
     </owl:NamedIndividual>
@@ -53674,7 +54466,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Shine_a_Light -->
 
     <owl:NamedIndividual rdf:about="&music-10;Shine_a_Light">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Soundtrack_Album"/>
         <rdfs:label>Shine a Light</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -53790,7 +54582,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Shot_of_Love -->
 
     <owl:NamedIndividual rdf:about="&music-10;Shot_of_Love">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Shot of Love</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
     </owl:NamedIndividual>
@@ -54050,6 +54842,7 @@
     <owl:NamedIndividual rdf:about="&music-10;Simon_and_Garfunkel">
         <rdf:type rdf:resource="&music-10;Band"/>
         <rdfs:label>Simon and Garfunkel</rdfs:label>
+        <synonym>Tom &amp; Jerry</synonym>
     </owl:NamedIndividual>
     
 
@@ -54900,6 +55693,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Something_New -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Something_New">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>Something New</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Something_To_Live_For -->
 
     <owl:NamedIndividual rdf:about="&music-10;Something_To_Live_For">
@@ -54977,7 +55780,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Songs_From_A_Room -->
 
     <owl:NamedIndividual rdf:about="&music-10;Songs_From_A_Room">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Songs From A Room</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Leonard_Cohen"/>
     </owl:NamedIndividual>
@@ -56531,7 +57334,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Stripped -->
 
     <owl:NamedIndividual rdf:about="&music-10;Stripped">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Stripped</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -56563,6 +57366,26 @@
         <rdf:type rdf:resource="&music-10;Bassist"/>
         <rdfs:label>Stuart Sutcliffe</rdfs:label>
         <memberOfGroup rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Studio_Daze -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Studio_Daze">
+        <rdf:type rdf:resource="&music-10;Bootleg_Album"/>
+        <rdfs:label>Studio Daze</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Studio_Sessions_Ultimate -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Studio_Sessions_Ultimate">
+        <rdf:type rdf:resource="&music-10;Bootleg_Album"/>
+        <rdfs:label>Studio Sessions Ultimate</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
 
@@ -57503,6 +58326,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Tales_From_New_York_The_Very_Best_of_Simon_and_Garfunkel -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Tales_From_New_York_The_Very_Best_of_Simon_and_Garfunkel">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Tales From New York: The Very Best of Simon &amp; Garfunkel</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Tales_of_Brave_Ulysees -->
 
     <owl:NamedIndividual rdf:about="&music-10;Tales_of_Brave_Ulysees">
@@ -58276,6 +59109,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Thats_the_Way_Through_the_Out_Door -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Thats_the_Way_Through_the_Out_Door">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>That&apos;s the Way Through the Out Door</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_50th_Anniversary_Collection -->
 
     <owl:NamedIndividual rdf:about="&music-10;The_50th_Anniversary_Collection">
@@ -58314,6 +59157,16 @@
     <owl:NamedIndividual rdf:about="&music-10;The_Alan_Parsons_Project">
         <rdf:type rdf:resource="&music-10;Band"/>
         <rdfs:label>The Alan Parsons Project</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Allman_Brothers_Band -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Allman_Brothers_Band">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>The Allman Brothers Band</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Allman_Brothers_Band"/>
     </owl:NamedIndividual>
     
 
@@ -58417,6 +59270,128 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Beatles_-_Album -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Beatles_-_Album">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Beatles</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Beatles_Ballads -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Beatles_Ballads">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Beatles&apos; Ballads</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Beatles_Beat -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Beatles_Beat">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Beatles Beat</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Beatles_Bootleg_Recordings_1963 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Beatles_Bootleg_Recordings_1963">
+        <rdf:type rdf:resource="&music-10;Bootleg_Album"/>
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Beatles Bootleg Recordings 1963</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Beatles_First -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Beatles_First">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Beatles&apos; First</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Beatles_Greatest -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Beatles_Greatest">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Beatles&apos; Greatest</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Beatles_Long_Tall_Sally -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Beatles_Long_Tall_Sally">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>The Beatles&apos; Long Tall Sally</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Beatles_Second_Album -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Beatles_Second_Album">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>The Beatles&apos; Second Album</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Beatles_Story -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Beatles_Story">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Beatles&apos; Story</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Beatles_at_the_Hollywood_Bowl -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Beatles_at_the_Hollywood_Bowl">
+        <rdf:type rdf:resource="&music-10;Live_Album"/>
+        <rdfs:label>The Beatles at the Hollywood Bowl</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Beatles_in_Italy -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Beatles_in_Italy">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Beatles in Italy</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Beatles_with_Tony_Sheridan_and_Guests -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Beatles_with_Tony_Sheridan_and_Guests">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Beatles with Tony Sheridan &amp; Guests</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+        <hasPerformer rdf:resource="&music-10;Tony_Sheridan"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Best_of_Bob_Dylan -->
 
     <owl:NamedIndividual rdf:about="&music-10;The_Best_of_Bob_Dylan">
@@ -58433,6 +59408,16 @@
         <rdf:type rdf:resource="&music-10;Compilation_Album"/>
         <rdfs:label>The Best of Pink Floyd: A Foot in the Door</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Pink_Floyd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Best_of_Simon_and_Garfunkel -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Best_of_Simon_and_Garfunkel">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Best of Simon &amp; Garfunkel</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
     </owl:NamedIndividual>
     
 
@@ -58814,12 +59799,63 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Collection_Simon_and_Garfunkel -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Collection_Simon_and_Garfunkel">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Collection: Simon &amp; Garfunkel</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Columbia_Studio_Recordings_1964_1970 -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Columbia_Studio_Recordings_1964_1970">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Columbia Studio Recordings (1964–1970)</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Complete_Albums_Collection -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Complete_Albums_Collection">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Complete Albums Collection</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Complete_Studio_Recordings -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Complete_Studio_Recordings">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>The Complete Studio Recordings</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Complete_Zabriskie_Point_Sessions -->
 
     <owl:NamedIndividual rdf:about="&music-10;The_Complete_Zabriskie_Point_Sessions">
         <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>The Complete Zabriskie Point Sessions</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Pink_Floyd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Concert_in_Central_Park -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Concert_in_Central_Park">
+        <rdf:type rdf:resource="&music-10;Live_Album"/>
+        <rdfs:label>The Concert in Central Park</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
     </owl:NamedIndividual>
     
 
@@ -58960,6 +59996,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Definitive_Simon_and_Garfunkel -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Definitive_Simon_and_Garfunkel">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Definitive Simon and Garfunkel</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Del-Vikings -->
 
     <owl:NamedIndividual rdf:about="&music-10;The_Del-Vikings">
@@ -59025,12 +60071,32 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Early_Beatles -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Early_Beatles">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Early Beatles</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Early_Singles -->
 
     <owl:NamedIndividual rdf:about="&music-10;The_Early_Singles">
         <rdf:type rdf:resource="&music-10;Compilation_Album"/>
         <rdfs:label>The Early Singles</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Pink_Floyd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Early_Tapes_of_the_Beatles -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Early_Tapes_of_the_Beatles">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Early Tapes of the Beatles</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
 
@@ -59139,12 +60205,32 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Essential_Beatles -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Essential_Beatles">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Essential Beatles</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Essential_Bob_Dylan -->
 
     <owl:NamedIndividual rdf:about="&music-10;The_Essential_Bob_Dylan">
         <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>The Essential Bob Dylan</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Essential_Simon_and_Garfunkel -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Essential_Simon_and_Garfunkel">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Essential Simon &amp; Garfunkel</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
     </owl:NamedIndividual>
     
 
@@ -59314,6 +60400,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Graduate -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Graduate">
+        <rdf:type rdf:resource="&music-10;Soundtrack_Album"/>
+        <rdfs:label>The Graduate</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Grass_Roots -->
 
     <owl:NamedIndividual rdf:about="&music-10;The_Grass_Roots">
@@ -59383,6 +60479,16 @@
         <hasPerformer rdf:resource="&music-10;Judas_Priest"/>
         <composer rdf:resource="&music-10;K_K_Downing"/>
         <composer rdf:resource="&music-10;Rob_Halford"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Hit_Sounds_of_Simon_and_Garfunkel -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Hit_Sounds_of_Simon_and_Garfunkel">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Hit Sounds of Simon and Garfunkel</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
     </owl:NamedIndividual>
     
 
@@ -59960,6 +61066,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Number_Ones -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Number_Ones">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Number Ones</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_One -->
 
     <owl:NamedIndividual rdf:about="&music-10;The_One">
@@ -60125,6 +61241,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Road_Goes_On_Forever -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Road_Goes_On_Forever">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Road Goes On Forever</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Allman_Brothers_Band"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Road_to_El_Dorado -->
 
     <owl:NamedIndividual rdf:about="&music-10;The_Road_to_El_Dorado">
@@ -60138,7 +61264,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Rolling_Stones_No_2 -->
 
     <owl:NamedIndividual rdf:about="&music-10;The_Rolling_Stones_No_2">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>The Rolling Stones No. 2</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -60148,7 +61274,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Rolling_Stones_Now -->
 
     <owl:NamedIndividual rdf:about="&music-10;The_Rolling_Stones_Now">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>The Rolling Stones, Now!</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -60284,6 +61410,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Simon_and_Garfunkel_Collection_17_of_Their_All_Time_Greatest_Recordings -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Simon_and_Garfunkel_Collection_17_of_Their_All_Time_Greatest_Recordings">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>The Simon and Garfunkel Collection: 17 of Their All-Time Greatest Recordings</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Sixteen -->
 
     <owl:NamedIndividual rdf:about="&music-10;The_Sixteen">
@@ -60348,6 +61484,16 @@
         <onAlbum rdf:resource="&music-10;Houses_of_the_Holy"/>
         <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
         <hasCompositions rdf:resource="&music-10;The_Song_Remains_The_Same"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#The_Song_Remains_the_Same -->
+
+    <owl:NamedIndividual rdf:about="&music-10;The_Song_Remains_the_Same">
+        <rdf:type rdf:resource="&music-10;Live_Album"/>
+        <rdfs:label>The Song Remains the Same</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Led_Zeppelin"/>
     </owl:NamedIndividual>
     
 
@@ -60734,7 +61880,7 @@
 
     <owl:NamedIndividual rdf:about="&music-10;The_White_Album">
         <rdf:type rdf:resource="&music-10;Studio_Album"/>
-        <rdfs:label>The White Album</rdfs:label>
+        <rdfs:label>The Beatles (&quot;White Album&quot;)</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
@@ -61522,7 +62668,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Time_Out_of_Mind -->
 
     <owl:NamedIndividual rdf:about="&music-10;Time_Out_of_Mind">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Time Out of Mind</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Bob_Dylan"/>
     </owl:NamedIndividual>
@@ -61949,6 +63095,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Tom_and_Jerry -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Tom_and_Jerry">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Tom &amp; Jerry</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Tomaso_Albinoni -->
 
     <owl:NamedIndividual rdf:about="&music-10;Tomaso_Albinoni">
@@ -62130,6 +63286,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Tomorrow_Never_Knows_-_Album -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Tomorrow_Never_Knows_-_Album">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Tomorrow Never Knows</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Tomás_Luis_de_Victoria -->
 
     <owl:NamedIndividual rdf:about="&music-10;Tomás_Luis_de_Victoria">
@@ -62243,6 +63409,17 @@
     <owl:NamedIndividual rdf:about="&music-10;Tony_Sansone">
         <rdf:type rdf:resource="&music-10;Songwriter"/>
         <rdfs:label>Tony Sansone</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Tony_Sheridan -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Tony_Sheridan">
+        <rdf:type rdf:resource="&music-10;Guitarist"/>
+        <rdf:type rdf:resource="&music-10;Singer"/>
+        <rdf:type rdf:resource="&music-10;Songwriter"/>
+        <rdfs:label>Tony Sheridan</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -62939,6 +64116,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Twenty_Golden_Hits -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Twenty_Golden_Hits">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>20 Golden Hits</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Twenty_Greatest_Hits_-_Simon_and_Garfunkel -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Twenty_Greatest_Hits_-_Simon_and_Garfunkel">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>20 Greatest Hits</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Twiggy -->
 
     <owl:NamedIndividual rdf:about="&music-10;Twiggy">
@@ -63029,6 +64226,16 @@
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>2 × 2</rdfs:label>
         <composer rdf:resource="&music-10;Bob_Dylan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Two_Can_Dream_Alone -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Two_Can_Dream_Alone">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Two Can Dream Alone</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
     </owl:NamedIndividual>
     
 
@@ -63247,7 +64454,7 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Undercover -->
 
     <owl:NamedIndividual rdf:about="&music-10;Undercover">
-        <rdf:type rdf:resource="&music-10;Album"/>
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
         <rdfs:label>Undercover</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Rolling_Stones"/>
     </owl:NamedIndividual>
@@ -63527,6 +64734,16 @@
     <owl:NamedIndividual rdf:about="&music-10;Verve">
         <rdf:type rdf:resource="&music-10;Recording_Companies"/>
         <synonym>Verve</synonym>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Very_Together -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Very_Together">
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdfs:label>Very Together</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
 
@@ -64630,6 +65847,16 @@
         <rdf:type rdf:resource="&music-10;Song"/>
         <rdfs:label>Weak Brain, Narrow Mind</rdfs:label>
         <composer rdf:resource="&music-10;Willie_Dixon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Wednesday_Morning_3_AM -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Wednesday_Morning_3_AM">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>Wednesday Morning, 3 A.M.</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Simon_and_Garfunkel"/>
     </owl:NamedIndividual>
     
 
@@ -65833,6 +67060,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Win_Lose_or_Draw -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Win_Lose_or_Draw">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>Win, Lose or Draw</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Allman_Brothers_Band"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Winfield_Scott -->
 
     <owl:NamedIndividual rdf:about="&music-10;Winfield_Scott">
@@ -65847,6 +67084,16 @@
     <owl:NamedIndividual rdf:about="&music-10;Wings">
         <rdf:type rdf:resource="&music-10;Band"/>
         <rdfs:label>Wings</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Wipe_the_Windows_Check_the_Oil_Dollar_Gas -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Wipe_the_Windows_Check_the_Oil_Dollar_Gas">
+        <rdf:type rdf:resource="&music-10;Live_Album"/>
+        <rdfs:label>Wipe the Windows, Check the Oil, Dollar Gas</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Allman_Brothers_Band"/>
     </owl:NamedIndividual>
     
 
@@ -66334,7 +67581,8 @@
     <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Yellow_Submarine_album -->
 
     <owl:NamedIndividual rdf:about="&music-10;Yellow_Submarine_album">
-        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdf:type rdf:resource="&music-10;Compilation_Album"/>
+        <rdf:type rdf:resource="&music-10;Soundtrack_Album"/>
         <rdfs:label>Yellow Submarine</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
@@ -66416,6 +67664,16 @@
         <rdfs:label>Yesterday</rdfs:label>
         <hasPerformer rdf:resource="&music-10;Shirley_Bassey"/>
         <hasCompositions rdf:resource="&music-10;Yesterday"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tedsullivan/ontologies/2015/5/music-10#Yesterday_and_Today -->
+
+    <owl:NamedIndividual rdf:about="&music-10;Yesterday_and_Today">
+        <rdf:type rdf:resource="&music-10;Studio_Album"/>
+        <rdfs:label>Yesterday and Today</rdfs:label>
+        <hasPerformer rdf:resource="&music-10;Beatles"/>
     </owl:NamedIndividual>
     
 
